@@ -1,0 +1,2300 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[15:56:26] filterscripts = ""  (string)
+[15:56:26] 
+[15:56:26] Server Plugins
+[15:56:26] --------------
+[15:56:26]  Loaded 0 plugins.
+
+[15:56:26] 
+[15:56:26] Filterscripts
+[15:56:26] ---------------
+[15:56:26]   Loaded 0 filterscripts.
+
+[15:56:26] Script[gamemodes/grandlarc.amx]: Run time error 19: "File or function is not found"
+[15:56:26] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[15:57:55] 
+[15:57:55] Server Plugins
+[15:57:55] --------------
+[15:57:55]  Loaded 0 plugins.
+
+[15:57:55] I couldn't load any gamemode scripts. Please verify your server.cfg
+[15:57:55] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[15:57:56] 
+[15:57:56] Server Plugins
+[15:57:56] --------------
+[15:57:56]  Loaded 0 plugins.
+
+[15:57:56] I couldn't load any gamemode scripts. Please verify your server.cfg
+[15:57:56] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[15:58:00] 
+[15:58:00] Server Plugins
+[15:58:00] --------------
+[15:58:00]  Loaded 0 plugins.
+
+[15:58:00] 
+[15:58:00] Filterscripts
+[15:58:00] ---------------
+[15:58:00]   Loaded 0 filterscripts.
+
+[15:58:00] Script[gamemodes/hac-script.amx]: Run time error 19: "File or function is not found"
+[15:58:00] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[16:03:09] 
+[16:03:09] Server Plugins
+[16:03:09] --------------
+[16:03:09]  Loaded 0 plugins.
+
+[16:03:09] 
+[16:03:09] Filterscripts
+[16:03:09] ---------------
+[16:03:09]   Loaded 0 filterscripts.
+
+[16:03:09] Script[gamemodes/hac-script.amx]: Run time error 19: "File or function is not found"
+[16:03:09] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[16:04:05] 
+[16:04:05] Server Plugins
+[16:04:05] --------------
+[16:04:05]  Loaded 0 plugins.
+
+[16:04:05] 
+[16:04:05] Filterscripts
+[16:04:05] ---------------
+[16:04:05]   Loaded 0 filterscripts.
+
+[16:04:05] Script[gamemodes/hac-script.amx]: Run time error 19: "File or function is not found"
+[16:04:05] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[16:04:59] filterscripts = ""  (string)
+[16:04:59] 
+[16:04:59] Server Plugins
+[16:04:59] --------------
+[16:04:59]  Loading plugin: whirlpool
+[16:04:59]  
+[16:04:59]  ==================
+[16:04:59]  
+[16:04:59]   Whirlpool loaded
+[16:04:59]  
+[16:04:59]  ==================
+[16:04:59]  
+[16:04:59]   Loaded.
+[16:04:59]  Loading plugin: mysql
+[16:04:59]  >> plugin.mysql: R38 successfully loaded.
+[16:04:59]   Loaded.
+[16:04:59]  Loaded 2 plugins.
+
+[16:04:59] 
+[16:04:59] Filterscripts
+[16:04:59] ---------------
+[16:04:59]   Loaded 0 filterscripts.
+
+[16:04:59] Script[gamemodes/hac-script.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[16:04:59] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[16:06:35] filterscripts = ""  (string)
+[16:06:35] 
+[16:06:35] Server Plugins
+[16:06:35] --------------
+[16:06:35]  Loading plugin: Whirlpool
+[16:06:35]  
+[16:06:35]  ==================
+[16:06:35]  
+[16:06:35]   Whirlpool loaded
+[16:06:35]  
+[16:06:35]  ==================
+[16:06:35]  
+[16:06:35]   Loaded.
+[16:06:35]  Loading plugin: mysql
+[16:06:35]  >> plugin.mysql: R38 successfully loaded.
+[16:06:35]   Loaded.
+[16:06:35]  Loading plugin: nativechecker
+[16:06:35]   Loaded.
+[16:06:35]  Loaded 3 plugins.
+
+[16:06:35] 
+[16:06:35] Filterscripts
+[16:06:35] ---------------
+[16:06:35]   Loaded 0 filterscripts.
+
+[16:06:35] Script[gamemodes/hac-script.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[16:06:35] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[16:09:16] filterscripts = ""  (string)
+[16:09:16] 
+[16:09:16] Server Plugins
+[16:09:16] --------------
+[16:09:16]  Loading plugin: Whirlpool
+[16:09:16]  
+[16:09:16]  ==================
+[16:09:16]  
+[16:09:16]   Whirlpool loaded
+[16:09:16]  
+[16:09:16]  ==================
+[16:09:16]  
+[16:09:16]   Loaded.
+[16:09:16]  Loading plugin: mysql
+[16:09:16]  >> plugin.mysql: R38 successfully loaded.
+[16:09:16]   Loaded.
+[16:09:16]  Loading plugin: nativechecker
+[16:09:16]   Loaded.
+[16:09:16]  Loaded 3 plugins.
+
+[16:09:16] 
+[16:09:16] Filterscripts
+[16:09:16] ---------------
+[16:09:16]   Loaded 0 filterscripts.
+
+[16:09:16] Number of vehicle models: 0
+[16:10:04] Incoming connection: 127.0.0.1:53701
+[16:10:04] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[16:13:26] filterscripts = ""  (string)
+[16:13:26] 
+[16:13:26] Server Plugins
+[16:13:26] --------------
+[16:13:26]  Loading plugin: Whirlpool
+[16:13:26]  
+[16:13:26]  ==================
+[16:13:26]  
+[16:13:26]   Whirlpool loaded
+[16:13:26]  
+[16:13:26]  ==================
+[16:13:26]  
+[16:13:26]   Loaded.
+[16:13:26]  Loading plugin: mysql
+[16:13:26]  >> plugin.mysql: R38 successfully loaded.
+[16:13:26]   Loaded.
+[16:13:26]  Loading plugin: nativechecker
+[16:13:26]   Loaded.
+[16:13:26]  Loaded 3 plugins.
+
+[16:13:26] 
+[16:13:26] Filterscripts
+[16:13:26] ---------------
+[16:13:26]   Loaded 0 filterscripts.
+
+[16:13:26] 
+----------------------------------
+[16:13:26]     This is the WIP HAC Gamemode
+[16:13:26] ----------------------------------
+
+[16:13:26] Number of vehicle models: 0
+[16:14:04] Incoming connection: 127.0.0.1:54901
+[16:14:05] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[16:14:13] [part] Benjamin_Nobel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[16:18:36] filterscripts = ""  (string)
+[16:18:36] 
+[16:18:36] Server Plugins
+[16:18:36] --------------
+[16:18:36]  Loading plugin: Whirlpool
+[16:18:36]  
+[16:18:36]  ==================
+[16:18:36]  
+[16:18:36]   Whirlpool loaded
+[16:18:36]  
+[16:18:36]  ==================
+[16:18:36]  
+[16:18:36]   Loaded.
+[16:18:36]  Loading plugin: mysql
+[16:18:36]  >> plugin.mysql: R38 successfully loaded.
+[16:18:36]   Loaded.
+[16:18:36]  Loading plugin: nativechecker
+[16:18:36]   Loaded.
+[16:18:36]  Loaded 3 plugins.
+
+[16:18:36] 
+[16:18:36] Filterscripts
+[16:18:36] ---------------
+[16:18:36]   Loaded 0 filterscripts.
+
+[16:18:36] 
+----------------------------------
+[16:18:36]     This is the WIP HAC Gamemode
+[16:18:36] ----------------------------------
+
+[16:18:36] Number of vehicle models: 0
+[16:19:25] Incoming connection: 127.0.0.1:50106
+[16:19:25] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[16:20:31] [part] Benjamin_Nobel has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[17:10:49] filterscripts = ""  (string)
+[17:10:49] 
+[17:10:49] Server Plugins
+[17:10:49] --------------
+[17:10:49]  Loading plugin: Whirlpool
+[17:10:49]  
+[17:10:49]  ==================
+[17:10:49]  
+[17:10:49]   Whirlpool loaded
+[17:10:49]  
+[17:10:49]  ==================
+[17:10:49]  
+[17:10:49]   Loaded.
+[17:10:49]  Loading plugin: mysql
+[17:10:49]  >> plugin.mysql: R38 successfully loaded.
+[17:10:49]   Loaded.
+[17:10:49]  Loading plugin: nativechecker
+[17:10:49]   Loaded.
+[17:10:49]  Loaded 3 plugins.
+
+[17:10:49] 
+[17:10:49] Filterscripts
+[17:10:49] ---------------
+[17:10:49]   Loaded 0 filterscripts.
+
+[17:10:49] 
+----------------------------------
+[17:10:49]     This is the WIP HAC Gamemode
+[17:10:49] ----------------------------------
+
+[17:10:49] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[17:13:12] filterscripts = ""  (string)
+[17:13:12] 
+[17:13:12] Server Plugins
+[17:13:12] --------------
+[17:13:12]  Loading plugin: Whirlpool
+[17:13:12]  
+[17:13:12]  ==================
+[17:13:12]  
+[17:13:12]   Whirlpool loaded
+[17:13:12]  
+[17:13:12]  ==================
+[17:13:12]  
+[17:13:12]   Loaded.
+[17:13:12]  Loading plugin: mysql
+[17:13:12]  >> plugin.mysql: R38 successfully loaded.
+[17:13:12]   Loaded.
+[17:13:12]  Loading plugin: nativechecker
+[17:13:12]   Loaded.
+[17:13:12]  Loaded 3 plugins.
+
+[17:13:12] 
+[17:13:12] Filterscripts
+[17:13:12] ---------------
+[17:13:12]   Loaded 0 filterscripts.
+
+[17:13:12] 
+----------------------------------
+[17:13:12]     This is the WIP HAC Gamemode
+[17:13:12] ----------------------------------
+
+[17:13:12] Number of vehicle models: 0
+[17:13:34] Incoming connection: 127.0.0.1:57777
+[17:13:35] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[17:17:47] [part] Benjamin_Nobel has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[17:18:26] filterscripts = ""  (string)
+[17:18:26] 
+[17:18:26] Server Plugins
+[17:18:26] --------------
+[17:18:26]  Loading plugin: Whirlpool
+[17:18:26]  
+[17:18:26]  ==================
+[17:18:26]  
+[17:18:26]   Whirlpool loaded
+[17:18:26]  
+[17:18:26]  ==================
+[17:18:26]  
+[17:18:26]   Loaded.
+[17:18:26]  Loading plugin: mysql
+[17:18:26]  >> plugin.mysql: R38 successfully loaded.
+[17:18:26]   Loaded.
+[17:18:26]  Loading plugin: nativechecker
+[17:18:26]   Loaded.
+[17:18:26]  Loaded 3 plugins.
+
+[17:18:26] 
+[17:18:26] Filterscripts
+[17:18:26] ---------------
+[17:18:26]   Loaded 0 filterscripts.
+
+[17:18:26] 
+----------------------------------
+[17:18:26]     This is the WIP HAC Gamemode
+[17:18:26] ----------------------------------
+
+[17:18:26] Number of vehicle models: 0
+[17:18:49] Incoming connection: 127.0.0.1:51401
+[17:18:50] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[17:18:57] New account registered. ID 1
+[17:19:14] [part] Benjamin_Nobel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[17:21:51] filterscripts = ""  (string)
+[17:21:51] 
+[17:21:51] Server Plugins
+[17:21:51] --------------
+[17:21:51]  Loading plugin: Whirlpool
+[17:21:51]  
+[17:21:51]  ==================
+[17:21:51]  
+[17:21:51]   Whirlpool loaded
+[17:21:51]  
+[17:21:51]  ==================
+[17:21:51]  
+[17:21:51]   Loaded.
+[17:21:51]  Loading plugin: mysql
+[17:21:51]  >> plugin.mysql: R38 successfully loaded.
+[17:21:51]   Loaded.
+[17:21:51]  Loading plugin: nativechecker
+[17:21:51]   Loaded.
+[17:21:51]  Loaded 3 plugins.
+
+[17:21:51] 
+[17:21:51] Filterscripts
+[17:21:51] ---------------
+[17:21:51]   Loaded 0 filterscripts.
+
+[17:21:51] 
+----------------------------------
+[17:21:51]   This is the WIP HAC Gamemodev0.001
+[17:21:51] ----------------------------------
+
+[17:21:51] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[17:22:23] filterscripts = ""  (string)
+[17:22:23] 
+[17:22:23] Server Plugins
+[17:22:23] --------------
+[17:22:23]  Loading plugin: Whirlpool
+[17:22:23]  
+[17:22:23]  ==================
+[17:22:23]  
+[17:22:23]   Whirlpool loaded
+[17:22:23]  
+[17:22:23]  ==================
+[17:22:23]  
+[17:22:23]   Loaded.
+[17:22:23]  Loading plugin: mysql
+[17:22:23]  >> plugin.mysql: R38 successfully loaded.
+[17:22:23]   Loaded.
+[17:22:23]  Loading plugin: nativechecker
+[17:22:23]   Loaded.
+[17:22:23]  Loaded 3 plugins.
+
+[17:22:24] 
+[17:22:24] Filterscripts
+[17:22:24] ---------------
+[17:22:24]   Loaded 0 filterscripts.
+
+[17:22:24] 
+----------------------------------
+[17:22:24] This is the WIP HAC Gamemode v0.001
+[17:22:24] ----------------------------------
+
+[17:22:24] Number of vehicle models: 0
+[17:22:50] Incoming connection: 127.0.0.1:55498
+[17:22:51] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[17:26:19] filterscripts = ""  (string)
+[17:26:19] 
+[17:26:19] Server Plugins
+[17:26:19] --------------
+[17:26:19]  Loading plugin: Whirlpool
+[17:26:19]  
+[17:26:19]  ==================
+[17:26:19]  
+[17:26:19]   Whirlpool loaded
+[17:26:19]  
+[17:26:19]  ==================
+[17:26:19]  
+[17:26:19]   Loaded.
+[17:26:19]  Loading plugin: mysql
+[17:26:19]  >> plugin.mysql: R38 successfully loaded.
+[17:26:19]   Loaded.
+[17:26:19]  Loading plugin: nativechecker
+[17:26:19]   Loaded.
+[17:26:19]  Loaded 3 plugins.
+
+[17:26:19] 
+[17:26:19] Filterscripts
+[17:26:19] ---------------
+[17:26:19]   Loaded 0 filterscripts.
+
+[17:26:19] 
+----------------------------------
+[17:26:19] This is the WIP HAC Gamemode v0.001
+[17:26:19] ----------------------------------
+
+[17:26:19] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[17:26:48] filterscripts = ""  (string)
+[17:26:48] 
+[17:26:48] Server Plugins
+[17:26:48] --------------
+[17:26:48]  Loading plugin: Whirlpool
+[17:26:48]  
+[17:26:48]  ==================
+[17:26:48]  
+[17:26:48]   Whirlpool loaded
+[17:26:48]  
+[17:26:48]  ==================
+[17:26:48]  
+[17:26:48]   Loaded.
+[17:26:48]  Loading plugin: mysql
+[17:26:48]  >> plugin.mysql: R38 successfully loaded.
+[17:26:48]   Loaded.
+[17:26:48]  Loading plugin: nativechecker
+[17:26:48]   Loaded.
+[17:26:48]  Loaded 3 plugins.
+
+[17:26:48] 
+[17:26:48] Filterscripts
+[17:26:48] ---------------
+[17:26:48]   Loaded 0 filterscripts.
+
+[17:26:48] 
+-----------------------------------
+[17:26:48]  This is the WIP HAC Gamemode v0.001
+[17:26:48] -----------------------------------
+
+[17:26:48] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[17:26:59] filterscripts = ""  (string)
+[17:26:59] 
+[17:26:59] Server Plugins
+[17:26:59] --------------
+[17:26:59]  Loading plugin: Whirlpool
+[17:26:59]  
+[17:26:59]  ==================
+[17:26:59]  
+[17:26:59]   Whirlpool loaded
+[17:26:59]  
+[17:26:59]  ==================
+[17:26:59]  
+[17:26:59]   Loaded.
+[17:26:59]  Loading plugin: mysql
+[17:26:59]  >> plugin.mysql: R38 successfully loaded.
+[17:26:59]   Loaded.
+[17:26:59]  Loading plugin: nativechecker
+[17:26:59]   Loaded.
+[17:26:59]  Loaded 3 plugins.
+
+[17:26:59] 
+[17:26:59] Filterscripts
+[17:26:59] ---------------
+[17:26:59]   Loaded 0 filterscripts.
+
+[17:26:59] 
+------------------------------------
+[17:26:59]  This is the WIP HAC Gamemode v0.001
+[17:26:59] ------------------------------------
+
+[17:26:59] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[17:27:09] filterscripts = ""  (string)
+[17:27:09] 
+[17:27:09] Server Plugins
+[17:27:09] --------------
+[17:27:09]  Loading plugin: Whirlpool
+[17:27:09]  
+[17:27:09]  ==================
+[17:27:09]  
+[17:27:09]   Whirlpool loaded
+[17:27:09]  
+[17:27:09]  ==================
+[17:27:09]  
+[17:27:09]   Loaded.
+[17:27:09]  Loading plugin: mysql
+[17:27:09]  >> plugin.mysql: R38 successfully loaded.
+[17:27:09]   Loaded.
+[17:27:09]  Loading plugin: nativechecker
+[17:27:09]   Loaded.
+[17:27:09]  Loaded 3 plugins.
+
+[17:27:09] 
+[17:27:09] Filterscripts
+[17:27:09] ---------------
+[17:27:09]   Loaded 0 filterscripts.
+
+[17:27:09] 
+-------------------------------------
+[17:27:09]  This is the WIP HAC Gamemode v0.001
+[17:27:09] -------------------------------------
+
+[17:27:09] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[17:30:18] filterscripts = ""  (string)
+[17:30:18] 
+[17:30:18] Server Plugins
+[17:30:18] --------------
+[17:30:18]  Loading plugin: Whirlpool
+[17:30:18]  
+[17:30:18]  ==================
+[17:30:18]  
+[17:30:18]   Whirlpool loaded
+[17:30:18]  
+[17:30:18]  ==================
+[17:30:18]  
+[17:30:18]   Loaded.
+[17:30:18]  Loading plugin: mysql
+[17:30:18]  >> plugin.mysql: R38 successfully loaded.
+[17:30:18]   Loaded.
+[17:30:18]  Loading plugin: nativechecker
+[17:30:18]   Loaded.
+[17:30:18]  Loaded 3 plugins.
+
+[17:30:18] 
+[17:30:18] Filterscripts
+[17:30:18] ---------------
+[17:30:18]   Loaded 0 filterscripts.
+
+[17:30:18] 
+-------------------------------------
+[17:30:18]  This is the WIP HAC Gamemode v0.001
+[17:30:18] -------------------------------------
+
+[17:30:18] Number of vehicle models: 0
+[17:30:30] [part] Benjamin_Nobel has left the server (0:2)
+[17:30:54] Incoming connection: 127.0.0.1:52563
+[17:30:55] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[17:31:04] [part] Benjamin_Nobel has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[17:31:34] filterscripts = ""  (string)
+[17:31:34] 
+[17:31:34] Server Plugins
+[17:31:34] --------------
+[17:31:34]  Loading plugin: Whirlpool
+[17:31:34]  
+[17:31:34]  ==================
+[17:31:34]  
+[17:31:34]   Whirlpool loaded
+[17:31:34]  
+[17:31:34]  ==================
+[17:31:34]  
+[17:31:34]   Loaded.
+[17:31:34]  Loading plugin: mysql
+[17:31:34]  >> plugin.mysql: R38 successfully loaded.
+[17:31:34]   Loaded.
+[17:31:34]  Loading plugin: nativechecker
+[17:31:34]   Loaded.
+[17:31:34]  Loaded 3 plugins.
+
+[17:31:34] 
+[17:31:34] Filterscripts
+[17:31:34] ---------------
+[17:31:34]   Loaded 0 filterscripts.
+
+[17:31:34] 
+-------------------------------------
+[17:31:34]  This is the WIP HAC Gamemode v0.001
+[17:31:34] -------------------------------------
+
+[17:31:34] Number of vehicle models: 0
+[17:31:59] Incoming connection: 127.0.0.1:50055
+[17:31:59] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[17:32:16] [death] Benjamin_Nobel died 255
+[17:32:20] [death] Benjamin_Nobel died 255
+[17:32:28] [death] Benjamin_Nobel died 255
+[17:32:32] [part] Benjamin_Nobel has left the server (0:1)
+[18:23:09] Incoming connection: 127.0.0.1:52883
+[18:23:09] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[18:23:21] [death] Benjamin_Nobel died 255
+[18:23:24] [death] Benjamin_Nobel died 255
+[18:23:32] [death] Benjamin_Nobel died 255
+[18:23:36] [death] Benjamin_Nobel died 255
+[18:23:44] [death] Benjamin_Nobel died 255
+[18:23:46] [part] Benjamin_Nobel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[18:30:47] filterscripts = ""  (string)
+[18:30:47] 
+[18:30:47] Server Plugins
+[18:30:47] --------------
+[18:30:47]  Loading plugin: Whirlpool
+[18:30:47]  
+[18:30:47]  ==================
+[18:30:47]  
+[18:30:47]   Whirlpool loaded
+[18:30:47]  
+[18:30:47]  ==================
+[18:30:47]  
+[18:30:47]   Loaded.
+[18:30:47]  Loading plugin: mysql
+[18:30:47]  >> plugin.mysql: R38 successfully loaded.
+[18:30:47]   Loaded.
+[18:30:47]  Loading plugin: nativechecker
+[18:30:47]   Loaded.
+[18:30:47]  Loaded 3 plugins.
+
+[18:30:47] 
+[18:30:47] Filterscripts
+[18:30:47] ---------------
+[18:30:47]   Loaded 0 filterscripts.
+
+[18:30:47] 
+-------------------------------------
+[18:30:47]  This is the WIP HAC Gamemode v0.001
+[18:30:47] -------------------------------------
+
+[18:30:47] Number of vehicle models: 0
+[18:31:10] Incoming connection: 127.0.0.1:50109
+[18:31:10] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[18:33:52] filterscripts = ""  (string)
+[18:33:52] 
+[18:33:52] Server Plugins
+[18:33:52] --------------
+[18:33:52]  Loading plugin: Whirlpool
+[18:33:52]  
+[18:33:52]  ==================
+[18:33:52]  
+[18:33:52]   Whirlpool loaded
+[18:33:52]  
+[18:33:52]  ==================
+[18:33:52]  
+[18:33:52]   Loaded.
+[18:33:52]  Loading plugin: mysql
+[18:33:52]  >> plugin.mysql: R38 successfully loaded.
+[18:33:52]   Loaded.
+[18:33:52]  Loading plugin: nativechecker
+[18:33:52]   Loaded.
+[18:33:52]  Loaded 3 plugins.
+
+[18:33:52] 
+[18:33:52] Filterscripts
+[18:33:52] ---------------
+[18:33:52]   Loaded 0 filterscripts.
+
+[18:33:52] 
+-------------------------------------
+[18:33:52]  This is the WIP HAC Gamemode v0.001
+[18:33:52] -------------------------------------
+
+[18:33:52] Number of vehicle models: 0
+[18:34:01] Incoming connection: 127.0.0.1:54178
+[18:34:01] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[18:40:42] filterscripts = ""  (string)
+[18:40:42] 
+[18:40:42] Server Plugins
+[18:40:42] --------------
+[18:40:42]  Loading plugin: Whirlpool
+[18:40:42]  
+[18:40:42]  ==================
+[18:40:42]  
+[18:40:42]   Whirlpool loaded
+[18:40:42]  
+[18:40:42]  ==================
+[18:40:42]  
+[18:40:42]   Loaded.
+[18:40:42]  Loading plugin: mysql
+[18:40:42]  >> plugin.mysql: R38 successfully loaded.
+[18:40:42]   Loaded.
+[18:40:42]  Loading plugin: nativechecker
+[18:40:42]   Loaded.
+[18:40:42]  Loaded 3 plugins.
+
+[18:40:42] 
+[18:40:42] Filterscripts
+[18:40:42] ---------------
+[18:40:42]   Loaded 0 filterscripts.
+
+[18:40:42] 
+-------------------------------------
+[18:40:42]  This is the WIP HAC Gamemode v0.001
+[18:40:42] -------------------------------------
+
+[18:40:42] Number of vehicle models: 0
+[18:40:52] Incoming connection: 127.0.0.1:63974
+[18:40:52] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[18:49:13] filterscripts = ""  (string)
+[18:49:13] 
+[18:49:13] Server Plugins
+[18:49:13] --------------
+[18:49:13]  Loading plugin: Whirlpool
+[18:49:13]  
+[18:49:13]  ==================
+[18:49:13]  
+[18:49:13]   Whirlpool loaded
+[18:49:13]  
+[18:49:13]  ==================
+[18:49:13]  
+[18:49:13]   Loaded.
+[18:49:13]  Loading plugin: mysql
+[18:49:13]  >> plugin.mysql: R38 successfully loaded.
+[18:49:13]   Loaded.
+[18:49:13]  Loading plugin: nativechecker
+[18:49:13]   Loaded.
+[18:49:13]  Loaded 3 plugins.
+
+[18:49:13] 
+[18:49:13] Filterscripts
+[18:49:13] ---------------
+[18:49:13]   Loaded 0 filterscripts.
+
+[18:49:13] 
+-------------------------------------
+[18:49:13]  This is the WIP HAC Gamemode v0.001
+[18:49:13] -------------------------------------
+
+[18:49:13] Number of vehicle models: 0
+[18:49:16] Incoming connection: 127.0.0.1:53186
+[18:49:16] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[18:49:19] New account registered. ID 2
+[18:49:34] [part] Benjamin_Nobel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[18:50:34] filterscripts = ""  (string)
+[18:50:34] 
+[18:50:34] Server Plugins
+[18:50:34] --------------
+[18:50:34]  Loading plugin: Whirlpool
+[18:50:34]  
+[18:50:34]  ==================
+[18:50:34]  
+[18:50:34]   Whirlpool loaded
+[18:50:34]  
+[18:50:34]  ==================
+[18:50:34]  
+[18:50:34]   Loaded.
+[18:50:34]  Loading plugin: mysql
+[18:50:34]  >> plugin.mysql: R38 successfully loaded.
+[18:50:34]   Loaded.
+[18:50:34]  Loading plugin: nativechecker
+[18:50:34]   Loaded.
+[18:50:34]  Loaded 3 plugins.
+
+[18:50:34] 
+[18:50:34] Filterscripts
+[18:50:34] ---------------
+[18:50:34]   Loaded 0 filterscripts.
+
+[18:50:34] 
+-------------------------------------
+[18:50:34]  This is the WIP HAC Gamemode v0.001
+[18:50:34] -------------------------------------
+
+[18:50:34] Number of vehicle models: 0
+[18:50:55] Incoming connection: 127.0.0.1:57386
+[18:50:55] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[18:50:55] NULL
+[18:51:07] [part] Benjamin_Nobel has left the server (0:2)
+[18:52:21] Incoming connection: 127.0.0.1:54354
+[18:52:22] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[18:52:25] New account registered. ID 3
+[18:55:53] [death] Benjamin_Nobel died 255
+[18:55:57] [death] Benjamin_Nobel died 255
+[18:56:04] [part] Benjamin_Nobel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[19:02:40] filterscripts = ""  (string)
+[19:02:40] 
+[19:02:40] Server Plugins
+[19:02:40] --------------
+[19:02:40]  Loading plugin: Whirlpool
+[19:02:40]  
+[19:02:40]  ==================
+[19:02:40]  
+[19:02:40]   Whirlpool loaded
+[19:02:40]  
+[19:02:40]  ==================
+[19:02:40]  
+[19:02:40]   Loaded.
+[19:02:40]  Loading plugin: mysql
+[19:02:40]  >> plugin.mysql: R38 successfully loaded.
+[19:02:40]   Loaded.
+[19:02:40]  Loading plugin: nativechecker
+[19:02:40]   Loaded.
+[19:02:40]  Loaded 3 plugins.
+
+[19:02:40] 
+[19:02:40] Filterscripts
+[19:02:40] ---------------
+[19:02:40]   Loaded 0 filterscripts.
+
+[19:02:40] 
+-------------------------------------
+[19:02:40]  This is the WIP HAC Gamemode v0.001
+[19:02:40] -------------------------------------
+
+[19:02:40] Number of vehicle models: 0
+[19:03:02] Incoming connection: 127.0.0.1:56262
+[19:03:02] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[19:03:07] New account registered. ID 4
+[19:03:27] [part] Benjamin_Nobel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[19:05:47] filterscripts = ""  (string)
+[19:05:47] 
+[19:05:47] Server Plugins
+[19:05:47] --------------
+[19:05:47]  Loading plugin: Whirlpool
+[19:05:47]  
+[19:05:47]  ==================
+[19:05:47]  
+[19:05:47]   Whirlpool loaded
+[19:05:47]  
+[19:05:47]  ==================
+[19:05:47]  
+[19:05:47]   Loaded.
+[19:05:47]  Loading plugin: mysql
+[19:05:47]  >> plugin.mysql: R38 successfully loaded.
+[19:05:47]   Loaded.
+[19:05:47]  Loading plugin: nativechecker
+[19:05:47]   Loaded.
+[19:05:47]  Loaded 3 plugins.
+
+[19:05:47] 
+[19:05:47] Filterscripts
+[19:05:47] ---------------
+[19:05:47]   Loaded 0 filterscripts.
+
+[19:05:47] 
+-------------------------------------
+[19:05:47]  This is the WIP HAC Gamemode v0.001
+[19:05:47] -------------------------------------
+
+[19:05:47] Number of vehicle models: 0
+[19:05:48] Incoming connection: 127.0.0.1:60995
+[19:05:48] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[19:05:48] NULL
+[19:05:55] [part] Benjamin_Nobel has left the server (0:2)
+[19:06:52] Incoming connection: 127.0.0.1:53134
+[19:06:53] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[19:06:59] New account registered. ID 5
+[19:06:59] [death] Benjamin_Nobel died 255
+[19:07:03] [death] Benjamin_Nobel died 255
+[19:07:11] [death] Benjamin_Nobel died 255
+[19:07:14] [death] Benjamin_Nobel died 255
+[19:07:19] [part] Benjamin_Nobel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[19:49:34] filterscripts = ""  (string)
+[19:49:34] 
+[19:49:34] Server Plugins
+[19:49:34] --------------
+[19:49:34]  Loading plugin: Whirlpool
+[19:49:34]  
+[19:49:34]  ==================
+[19:49:34]  
+[19:49:34]   Whirlpool loaded
+[19:49:34]  
+[19:49:34]  ==================
+[19:49:34]  
+[19:49:34]   Loaded.
+[19:49:34]  Loading plugin: mysql
+[19:49:34]  >> plugin.mysql: R38 successfully loaded.
+[19:49:34]   Loaded.
+[19:49:34]  Loading plugin: nativechecker
+[19:49:34]   Loaded.
+[19:49:34]  Loaded 3 plugins.
+
+[19:49:34] 
+[19:49:34] Filterscripts
+[19:49:34] ---------------
+[19:49:34]   Loaded 0 filterscripts.
+
+[19:49:34] 
+-------------------------------------
+[19:49:34]  This is the WIP HAC Gamemode v0.001
+[19:49:34] -------------------------------------
+
+[19:49:34] Number of vehicle models: 0
+[19:49:54] Incoming connection: 127.0.0.1:49952
+[19:49:55] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[19:49:55] NULL
+[19:50:04] [part] Benjamin_Nobel has left the server (0:2)
+[19:50:38] Incoming connection: 127.0.0.1:59148
+[19:50:38] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[19:50:45] New account registered. ID 6
+[19:50:46] [death] Benjamin_Nobel died 255
+[19:50:49] [death] Benjamin_Nobel died 255
+[19:50:54] [part] Benjamin_Nobel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[19:52:03] filterscripts = ""  (string)
+[19:52:03] 
+[19:52:03] Server Plugins
+[19:52:03] --------------
+[19:52:03]  Loading plugin: Whirlpool
+[19:52:03]  
+[19:52:03]  ==================
+[19:52:03]  
+[19:52:03]   Whirlpool loaded
+[19:52:03]  
+[19:52:03]  ==================
+[19:52:03]  
+[19:52:03]   Loaded.
+[19:52:03]  Loading plugin: mysql
+[19:52:03]  >> plugin.mysql: R38 successfully loaded.
+[19:52:03]   Loaded.
+[19:52:03]  Loading plugin: nativechecker
+[19:52:03]   Loaded.
+[19:52:03]  Loaded 3 plugins.
+
+[19:52:03] 
+[19:52:03] Filterscripts
+[19:52:03] ---------------
+[19:52:03]   Loaded 0 filterscripts.
+
+[19:52:03] 
+-------------------------------------
+[19:52:03]  This is the WIP HAC Gamemode v0.001
+[19:52:03] -------------------------------------
+
+[19:52:03] Number of vehicle models: 0
+[19:52:33] Incoming connection: 127.0.0.1:59076
+[19:52:33] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[19:52:41] New account registered. ID 7
+[19:52:41] [death] Benjamin_Nobel died 255
+[19:52:45] [part] Benjamin_Nobel has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[19:20:34] filterscripts = ""  (string)
+[19:20:34] 
+[19:20:34] Server Plugins
+[19:20:34] --------------
+[19:20:34]  Loading plugin: Whirlpool
+[19:20:34]  
+[19:20:34]  ==================
+[19:20:34]  
+[19:20:34]   Whirlpool loaded
+[19:20:34]  
+[19:20:34]  ==================
+[19:20:34]  
+[19:20:34]   Loaded.
+[19:20:34]  Loading plugin: mysql
+[19:20:34]  >> plugin.mysql: R38 successfully loaded.
+[19:20:34]   Loaded.
+[19:20:34]  Loading plugin: nativechecker
+[19:20:34]   Loaded.
+[19:20:34]  Loaded 3 plugins.
+
+[19:20:34] 
+[19:20:34] Filterscripts
+[19:20:34] ---------------
+[19:20:34]   Loaded 0 filterscripts.
+
+[19:20:34] 
+-------------------------------------
+[19:20:34]  This is the WIP HAC Gamemode v0.001
+[19:20:34] -------------------------------------
+
+[19:20:34] Number of vehicle models: 0
+[19:20:58] Incoming connection: 127.0.0.1:52087
+[19:20:58] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[19:34:55] filterscripts = ""  (string)
+[19:34:55] 
+[19:34:55] Server Plugins
+[19:34:55] --------------
+[19:34:55]  Loading plugin: Whirlpool
+[19:34:55]  
+[19:34:55]  ==================
+[19:34:55]  
+[19:34:55]   Whirlpool loaded
+[19:34:55]  
+[19:34:55]  ==================
+[19:34:55]  
+[19:34:55]   Loaded.
+[19:34:55]  Loading plugin: mysql
+[19:34:55]  >> plugin.mysql: R38 successfully loaded.
+[19:34:55]   Loaded.
+[19:34:55]  Loading plugin: nativechecker
+[19:34:55]   Loaded.
+[19:34:55]  Loaded 3 plugins.
+
+[19:34:55] 
+[19:34:55] Filterscripts
+[19:34:55] ---------------
+[19:34:55]   Loaded 0 filterscripts.
+
+[19:34:55] 
+-------------------------------------
+[19:34:55]  This is the WIP HAC Gamemode v0.001
+[19:34:55] -------------------------------------
+
+[19:34:55] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[19:35:14] filterscripts = ""  (string)
+[19:35:14] 
+[19:35:14] Server Plugins
+[19:35:14] --------------
+[19:35:14]  Loading plugin: Whirlpool
+[19:35:14]  
+[19:35:14]  ==================
+[19:35:14]  
+[19:35:14]   Whirlpool loaded
+[19:35:14]  
+[19:35:14]  ==================
+[19:35:14]  
+[19:35:14]   Loaded.
+[19:35:14]  Loading plugin: mysql
+[19:35:14]  >> plugin.mysql: R38 successfully loaded.
+[19:35:14]   Loaded.
+[19:35:14]  Loading plugin: nativechecker
+[19:35:14]   Loaded.
+[19:35:14]  Loaded 3 plugins.
+
+[19:35:14] 
+[19:35:14] Filterscripts
+[19:35:14] ---------------
+[19:35:14]   Loaded 0 filterscripts.
+
+[19:35:14] 
+-------------------------------------
+[19:35:14]  This is the WIP HAC Gamemode v0.001
+[19:35:14] -------------------------------------
+
+[19:35:14] Number of vehicle models: 0
+[19:35:32] Incoming connection: 127.0.0.1:52979
+[19:35:33] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[19:37:32] [part] Benjamin_Armand has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[21:35:53] filterscripts = ""  (string)
+[21:35:53] 
+[21:35:53] Server Plugins
+[21:35:53] --------------
+[21:35:53]  Loading plugin: Whirlpool
+[21:35:53]  
+[21:35:53]  ==================
+[21:35:53]  
+[21:35:53]   Whirlpool loaded
+[21:35:53]  
+[21:35:53]  ==================
+[21:35:53]  
+[21:35:53]   Loaded.
+[21:35:53]  Loading plugin: mysql
+[21:35:53]  >> plugin.mysql: R38 successfully loaded.
+[21:35:53]   Loaded.
+[21:35:53]  Loading plugin: nativechecker
+[21:35:53]   Loaded.
+[21:35:53]  Loaded 3 plugins.
+
+[21:35:53] 
+[21:35:53] Filterscripts
+[21:35:53] ---------------
+[21:35:53]   Loaded 0 filterscripts.
+
+[21:35:53]    Error: Function not registered: 'SSCANF_Init'
+[21:35:53]    Error: Function not registered: 'SSCANF_Join'
+[21:35:53]    Error: Function not registered: 'SSCANF_Leave'
+[21:35:53] Script[gamemodes/hac-script.amx]: Run time error 19: "File or function is not found"
+[21:35:53] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[21:36:28] filterscripts = ""  (string)
+[21:36:28] 
+[21:36:28] Server Plugins
+[21:36:28] --------------
+[21:36:28]  Loading plugin: sscanf
+[21:36:28] 
+
+[21:36:28]  ===============================
+
+[21:36:28]       sscanf plugin loaded.     
+
+[21:36:28]          Version:  2.8.1        
+
+[21:36:28]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:36:28]  ===============================
+
+[21:36:28]   Loaded.
+[21:36:28]  Loading plugin: nativechecker
+[21:36:28]   Loaded.
+[21:36:28]  Loaded 2 plugins.
+
+[21:36:28] 
+[21:36:28] Filterscripts
+[21:36:28] ---------------
+[21:36:28]   Loaded 0 filterscripts.
+
+[21:36:28]  
+[21:36:28]  
+[21:36:28]  
+[21:36:28]  ======================================= 
+[21:36:28]  |                                     | 
+[21:36:28]  |        YSI version 3.09.0684        | 
+[21:36:28]  |        By Alex "Y_Less" Cole        | 
+[21:36:28]  |                                     | 
+[21:36:28]  ======================================= 
+[21:36:28]  
+[21:36:28] 
+-------------------------------------
+[21:36:28]  This is the WIP HAC Gamemode v0.001
+[21:36:28] -------------------------------------
+
+[21:36:28] Number of vehicle models: 0
+[21:36:28]  
+[21:36:28]  ========================================== 
+[21:36:28]  |                                        | 
+[21:36:28]  |  A new version (v<html>
+  ) of YSI is  | 
+[21:36:28]  |            available from:             | 
+[21:36:28]  |                                        | 
+[21:36:28]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[21:36:28]  |                                        | 
+[21:36:28]  ========================================== 
+[21:36:28]  
+[21:37:19] Incoming connection: 127.0.0.1:58363
+[21:37:19] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[21:37:19] Welcome to the server Benjamin Armand !
+[21:37:55] [part] Benjamin_Armand has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[22:13:48] filterscripts = ""  (string)
+[22:13:48] 
+[22:13:48] Server Plugins
+[22:13:48] --------------
+[22:13:48]  Loading plugin: sscanf
+[22:13:48] 
+
+[22:13:48]  ===============================
+
+[22:13:48]       sscanf plugin loaded.     
+
+[22:13:48]          Version:  2.8.1        
+
+[22:13:48]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:13:48]  ===============================
+
+[22:13:48]   Loaded.
+[22:13:48]  Loading plugin: nativechecker
+[22:13:48]   Loaded.
+[22:13:48]  Loaded 2 plugins.
+
+[22:13:48] 
+[22:13:48] Filterscripts
+[22:13:48] ---------------
+[22:13:48]   Loaded 0 filterscripts.
+
+[22:13:48]  
+[22:13:48]  
+[22:13:48]  
+[22:13:48]  ======================================= 
+[22:13:48]  |                                     | 
+[22:13:48]  |        YSI version 3.09.0684        | 
+[22:13:48]  |        By Alex "Y_Less" Cole        | 
+[22:13:48]  |                                     | 
+[22:13:48]  ======================================= 
+[22:13:48]  
+[22:13:48] 
+-------------------------------------
+[22:13:48]  This is the WIP HAC Gamemode v0.001
+[22:13:48] -------------------------------------
+
+[22:13:48] Number of vehicle models: 0
+[22:13:48]  
+[22:13:48]  ========================================== 
+[22:13:48]  |                                        | 
+[22:13:48]  |  A new version (v<html>
+  ) of YSI is  | 
+[22:13:48]  |            available from:             | 
+[22:13:48]  |                                        | 
+[22:13:48]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[22:13:48]  |                                        | 
+[22:13:48]  ========================================== 
+[22:13:48]  
+[22:14:09] Incoming connection: 127.0.0.1:62719
+[22:14:09] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[22:14:09] Welcome to the server Benjamin Armand !
+[22:14:33] [part] Benjamin_Armand has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[22:14:49] filterscripts = ""  (string)
+[22:14:49] 
+[22:14:49] Server Plugins
+[22:14:49] --------------
+[22:14:49]  Loading plugin: sscanf
+[22:14:49] 
+
+[22:14:49]  ===============================
+
+[22:14:49]       sscanf plugin loaded.     
+
+[22:14:49]          Version:  2.8.1        
+
+[22:14:49]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:14:49]  ===============================
+
+[22:14:49]   Loaded.
+[22:14:49]  Loading plugin: nativechecker
+[22:14:49]   Loaded.
+[22:14:49]  Loaded 2 plugins.
+
+[22:14:49] 
+[22:14:49] Filterscripts
+[22:14:49] ---------------
+[22:14:49]   Loaded 0 filterscripts.
+
+[22:14:49]  
+[22:14:49]  
+[22:14:49]  
+[22:14:49]  ======================================= 
+[22:14:49]  |                                     | 
+[22:14:49]  |        YSI version 3.09.0684        | 
+[22:14:49]  |        By Alex "Y_Less" Cole        | 
+[22:14:49]  |                                     | 
+[22:14:49]  ======================================= 
+[22:14:49]  
+[22:14:49] 
+-------------------------------------
+[22:14:49]  This is the WIP HAC Gamemode v0.001
+[22:14:49] -------------------------------------
+
+[22:14:49] Number of vehicle models: 0
+[22:14:49]  
+[22:14:49]  ========================================== 
+[22:14:49]  |                                        | 
+[22:14:49]  |  A new version (v<html>
+  ) of YSI is  | 
+[22:14:49]  |            available from:             | 
+[22:14:49]  |                                        | 
+[22:14:49]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[22:14:49]  |                                        | 
+[22:14:49]  ========================================== 
+[22:14:49]  
+[22:15:17] Incoming connection: 127.0.0.1:50894
+[22:15:18] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[22:15:18] Benjamin Armand has joined.
+[22:16:23] [part] Benjamin_Armand has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[22:35:16] filterscripts = ""  (string)
+[22:35:16] 
+[22:35:16] Server Plugins
+[22:35:16] --------------
+[22:35:16]  Loading plugin: sscanf
+[22:35:16] 
+
+[22:35:16]  ===============================
+
+[22:35:16]       sscanf plugin loaded.     
+
+[22:35:16]          Version:  2.8.1        
+
+[22:35:16]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:35:16]  ===============================
+
+[22:35:16]   Loaded.
+[22:35:16]  Loading plugin: nativechecker
+[22:35:16]   Loaded.
+[22:35:16]  Loaded 2 plugins.
+
+[22:35:16] 
+[22:35:16] Filterscripts
+[22:35:16] ---------------
+[22:35:16]   Loaded 0 filterscripts.
+
+[22:35:16]  
+[22:35:16]  
+[22:35:16]  
+[22:35:16]  ======================================= 
+[22:35:16]  |                                     | 
+[22:35:16]  |        YSI version 3.09.0684        | 
+[22:35:16]  |        By Alex "Y_Less" Cole        | 
+[22:35:16]  |                                     | 
+[22:35:16]  ======================================= 
+[22:35:16]  
+[22:35:16] 
+-------------------------------------
+[22:35:16]  This is the WIP HAC Gamemode v0.001
+[22:35:16] -------------------------------------
+
+[22:35:16] Number of vehicle models: 0
+[22:35:16]  
+[22:35:16]  ========================================== 
+[22:35:16]  |                                        | 
+[22:35:16]  |  A new version (v<html>
+  ) of YSI is  | 
+[22:35:16]  |            available from:             | 
+[22:35:16]  |                                        | 
+[22:35:16]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[22:35:16]  |                                        | 
+[22:35:16]  ========================================== 
+[22:35:16]  
+[22:35:39] Incoming connection: 127.0.0.1:60364
+[22:35:39] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[22:35:39] Benjamin Armand has joined.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[23:23:02] filterscripts = ""  (string)
+[23:23:02] 
+[23:23:02] Server Plugins
+[23:23:02] --------------
+[23:23:02]  Loading plugin: sscanf
+[23:23:02] 
+
+[23:23:02]  ===============================
+
+[23:23:02]       sscanf plugin loaded.     
+
+[23:23:02]          Version:  2.8.1        
+
+[23:23:02]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:23:02]  ===============================
+
+[23:23:02]   Loaded.
+[23:23:02]  Loading plugin: nativechecker
+[23:23:02]   Loaded.
+[23:23:02]  Loaded 2 plugins.
+
+[23:23:02] 
+[23:23:02] Filterscripts
+[23:23:02] ---------------
+[23:23:02]   Loaded 0 filterscripts.
+
+[23:23:02]  
+[23:23:02]  
+[23:23:02]  
+[23:23:02]  ======================================= 
+[23:23:02]  |                                     | 
+[23:23:02]  |        YSI version 3.09.0684        | 
+[23:23:02]  |        By Alex "Y_Less" Cole        | 
+[23:23:02]  |                                     | 
+[23:23:02]  ======================================= 
+[23:23:02]  
+[23:23:02] 
+-------------------------------------
+[23:23:02]  This is the WIP HAC Gamemode v0.001
+[23:23:02] -------------------------------------
+
+[23:23:02] Number of vehicle models: 0
+[23:23:02]  
+[23:23:02]  ========================================== 
+[23:23:02]  |                                        | 
+[23:23:02]  |  A new version (v<html>
+  ) of YSI is  | 
+[23:23:02]  |            available from:             | 
+[23:23:02]  |                                        | 
+[23:23:02]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[23:23:02]  |                                        | 
+[23:23:02]  ========================================== 
+[23:23:02]  
+[23:23:40] Incoming connection: 127.0.0.1:62216
+[23:23:41] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[23:23:41] Benjamin Armand has joined.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[23:27:40] filterscripts = ""  (string)
+[23:27:40] 
+[23:27:40] Server Plugins
+[23:27:40] --------------
+[23:27:40]  Loading plugin: sscanf
+[23:27:40] 
+
+[23:27:40]  ===============================
+
+[23:27:40]       sscanf plugin loaded.     
+
+[23:27:40]          Version:  2.8.1        
+
+[23:27:40]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:27:40]  ===============================
+
+[23:27:40]   Loaded.
+[23:27:40]  Loading plugin: nativechecker
+[23:27:40]   Loaded.
+[23:27:40]  Loaded 2 plugins.
+
+[23:27:40] 
+[23:27:40] Filterscripts
+[23:27:40] ---------------
+[23:27:40]   Loaded 0 filterscripts.
+
+[23:27:40]  
+[23:27:40]  
+[23:27:40]  
+[23:27:40]  ======================================= 
+[23:27:40]  |                                     | 
+[23:27:40]  |        YSI version 3.09.0684        | 
+[23:27:40]  |        By Alex "Y_Less" Cole        | 
+[23:27:40]  |                                     | 
+[23:27:40]  ======================================= 
+[23:27:40]  
+[23:27:40] 
+-------------------------------------
+[23:27:40]  This is the WIP HAC Gamemode v0.001
+[23:27:40] -------------------------------------
+
+[23:27:40] Number of vehicle models: 0
+[23:27:40]  
+[23:27:40]  ========================================== 
+[23:27:40]  |                                        | 
+[23:27:40]  |  A new version (v<html>
+  ) of YSI is  | 
+[23:27:40]  |            available from:             | 
+[23:27:40]  |                                        | 
+[23:27:40]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[23:27:40]  |                                        | 
+[23:27:40]  ========================================== 
+[23:27:40]  
+[23:28:14] Incoming connection: 127.0.0.1:53488
+[23:28:15] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[23:28:15] Benjamin Armand has joined.
+[00:20:00] [part] Benjamin_Armand has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[00:20:30] filterscripts = ""  (string)
+[00:20:30] 
+[00:20:30] Server Plugins
+[00:20:30] --------------
+[00:20:30]  Loading plugin: sscanf
+[00:20:30] 
+
+[00:20:30]  ===============================
+
+[00:20:30]       sscanf plugin loaded.     
+
+[00:20:30]          Version:  2.8.1        
+
+[00:20:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:20:30]  ===============================
+
+[00:20:30]   Loaded.
+[00:20:30]  Loading plugin: nativechecker
+[00:20:30]   Loaded.
+[00:20:30]  Loaded 2 plugins.
+
+[00:20:30] 
+[00:20:30] Filterscripts
+[00:20:30] ---------------
+[00:20:30]   Loaded 0 filterscripts.
+
+[00:20:30]  
+[00:20:30]  
+[00:20:30]  
+[00:20:30]  ======================================= 
+[00:20:30]  |                                     | 
+[00:20:30]  |        YSI version 3.09.0684        | 
+[00:20:30]  |        By Alex "Y_Less" Cole        | 
+[00:20:30]  |                                     | 
+[00:20:30]  ======================================= 
+[00:20:30]  
+[00:20:30] 
+-------------------------------------
+[00:20:30]  This is the WIP HAC Gamemode v0.001
+[00:20:30] -------------------------------------
+
+[00:20:30] Number of vehicle models: 0
+[00:20:31]  
+[00:20:31]  ========================================== 
+[00:20:31]  |                                        | 
+[00:20:31]  |  A new version (v<html>
+  ) of YSI is  | 
+[00:20:31]  |            available from:             | 
+[00:20:31]  |                                        | 
+[00:20:31]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[00:20:31]  |                                        | 
+[00:20:31]  ========================================== 
+[00:20:31]  
+[00:20:52] Incoming connection: 127.0.0.1:53412
+[00:20:52] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[00:21:05] x:1317.179809 y:-915.674011 z:37.903450
+[01:01:09] [part] Benjamin_Armand has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[01:02:34] filterscripts = ""  (string)
+[01:02:34] 
+[01:02:34] Server Plugins
+[01:02:34] --------------
+[01:02:34]  Loading plugin: sscanf
+[01:02:34] 
+
+[01:02:34]  ===============================
+
+[01:02:34]       sscanf plugin loaded.     
+
+[01:02:34]          Version:  2.8.1        
+
+[01:02:34]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:02:34]  ===============================
+
+[01:02:34]   Loaded.
+[01:02:34]  Loading plugin: nativechecker
+[01:02:34]   Loaded.
+[01:02:34]  Loaded 2 plugins.
+
+[01:02:34] 
+[01:02:34] Filterscripts
+[01:02:34] ---------------
+[01:02:34]   Loaded 0 filterscripts.
+
+[01:02:34]  
+[01:02:34]  
+[01:02:34]  
+[01:02:34]  ======================================= 
+[01:02:34]  |                                     | 
+[01:02:34]  |        YSI version 3.09.0684        | 
+[01:02:34]  |        By Alex "Y_Less" Cole        | 
+[01:02:34]  |                                     | 
+[01:02:34]  ======================================= 
+[01:02:34]  
+[01:02:34] 
+-------------------------------------
+[01:02:34]  This is the WIP HAC Gamemode v0.001
+[01:02:34] -------------------------------------
+
+[01:02:34] Number of vehicle models: 0
+[01:02:35]  
+[01:02:35]  ========================================== 
+[01:02:35]  |                                        | 
+[01:02:35]  |  A new version (v<html>
+  ) of YSI is  | 
+[01:02:35]  |            available from:             | 
+[01:02:35]  |                                        | 
+[01:02:35]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[01:02:35]  |                                        | 
+[01:02:35]  ========================================== 
+[01:02:35]  
+[01:03:37] Incoming connection: 86.159.38.45:61350
+[01:03:37] [join] Winston_Vimes has joined the server (0:86.159.38.45)
+[01:03:58] Incoming connection: 127.0.0.1:59795
+[01:03:58] [join] Benjamin_Armand has joined the server (1:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[01:11:49] filterscripts = ""  (string)
+[01:11:49] 
+[01:11:49] Server Plugins
+[01:11:49] --------------
+[01:11:49]  Loading plugin: sscanf
+[01:11:49] 
+
+[01:11:49]  ===============================
+
+[01:11:49]       sscanf plugin loaded.     
+
+[01:11:49]          Version:  2.8.1        
+
+[01:11:49]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:11:49]  ===============================
+
+[01:11:49]   Loaded.
+[01:11:49]  Loading plugin: nativechecker
+[01:11:49]   Loaded.
+[01:11:49]  Loaded 2 plugins.
+
+[01:11:49] 
+[01:11:49] Filterscripts
+[01:11:49] ---------------
+[01:11:49]   Loaded 0 filterscripts.
+
+[01:11:49]  
+[01:11:49]  
+[01:11:49]  
+[01:11:49]  ======================================= 
+[01:11:49]  |                                     | 
+[01:11:49]  |        YSI version 3.09.0684        | 
+[01:11:49]  |        By Alex "Y_Less" Cole        | 
+[01:11:49]  |                                     | 
+[01:11:49]  ======================================= 
+[01:11:49]  
+[01:11:49] 
+-------------------------------------
+[01:11:49]  This is the WIP HAC Gamemode v0.001
+[01:11:49] -------------------------------------
+
+[01:11:49] Number of vehicle models: 0
+[01:11:49]  
+[01:11:49]  ========================================== 
+[01:11:49]  |                                        | 
+[01:11:49]  |  A new version (v<html>
+  ) of YSI is  | 
+[01:11:49]  |            available from:             | 
+[01:11:49]  |                                        | 
+[01:11:49]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[01:11:49]  |                                        | 
+[01:11:49]  ========================================== 
+[01:11:49]  
+[01:12:00] Incoming connection: 127.0.0.1:64734
+[01:12:09] Incoming connection: 86.159.38.45:64550
+[01:12:09] [join] Winston_Vimes has joined the server (0:86.159.38.45)
+[01:12:10] Incoming connection: 127.0.0.1:64735
+[01:12:10] [join] Benjamin_Armand has joined the server (1:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[01:15:20] filterscripts = ""  (string)
+[01:15:20] 
+[01:15:20] Server Plugins
+[01:15:20] --------------
+[01:15:20]  Loading plugin: sscanf
+[01:15:20] 
+
+[01:15:20]  ===============================
+
+[01:15:20]       sscanf plugin loaded.     
+
+[01:15:20]          Version:  2.8.1        
+
+[01:15:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:15:20]  ===============================
+
+[01:15:20]   Loaded.
+[01:15:20]  Loading plugin: nativechecker
+[01:15:20]   Loaded.
+[01:15:20]  Loaded 2 plugins.
+
+[01:15:20] 
+[01:15:20] Filterscripts
+[01:15:20] ---------------
+[01:15:20]   Loaded 0 filterscripts.
+
+[01:15:20]  
+[01:15:20]  
+[01:15:20]  
+[01:15:20]  ======================================= 
+[01:15:20]  |                                     | 
+[01:15:20]  |        YSI version 3.09.0684        | 
+[01:15:20]  |        By Alex "Y_Less" Cole        | 
+[01:15:20]  |                                     | 
+[01:15:20]  ======================================= 
+[01:15:20]  
+[01:15:20] 
+-------------------------------------
+[01:15:20]  This is the WIP HAC Gamemode v0.001
+[01:15:20] -------------------------------------
+
+[01:15:20] Number of vehicle models: 0
+[01:15:20]  
+[01:15:20]  ========================================== 
+[01:15:20]  |                                        | 
+[01:15:20]  |  A new version (v<html>
+  ) of YSI is  | 
+[01:15:20]  |            available from:             | 
+[01:15:20]  |                                        | 
+[01:15:20]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[01:15:20]  |                                        | 
+[01:15:20]  ========================================== 
+[01:15:20]  
+[01:15:30] Incoming connection: 86.159.38.45:62306
+[01:15:34] Incoming connection: 127.0.0.1:64203
+[01:15:44] Incoming connection: 127.0.0.1:64205
+[01:15:44] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[01:16:27] Incoming connection: 86.159.38.45:64284
+[01:16:28] [join] Winston_Vimes has joined the server (1:86.159.38.45)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[01:19:33] filterscripts = ""  (string)
+[01:19:33] 
+[01:19:33] Server Plugins
+[01:19:33] --------------
+[01:19:33]  Loading plugin: sscanf
+[01:19:33] 
+
+[01:19:33]  ===============================
+
+[01:19:33]       sscanf plugin loaded.     
+
+[01:19:33]          Version:  2.8.1        
+
+[01:19:33]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:19:33]  ===============================
+
+[01:19:33]   Loaded.
+[01:19:33]  Loading plugin: nativechecker
+[01:19:33]   Loaded.
+[01:19:33]  Loaded 2 plugins.
+
+[01:19:33] 
+[01:19:33] Filterscripts
+[01:19:33] ---------------
+[01:19:33]   Loaded 0 filterscripts.
+
+[01:19:33]  
+[01:19:33]  
+[01:19:33]  
+[01:19:33]  ======================================= 
+[01:19:33]  |                                     | 
+[01:19:33]  |        YSI version 3.09.0684        | 
+[01:19:33]  |        By Alex "Y_Less" Cole        | 
+[01:19:33]  |                                     | 
+[01:19:33]  ======================================= 
+[01:19:33]  
+[01:19:33] 
+-------------------------------------
+[01:19:33]  This is the WIP HAC Gamemode v0.001
+[01:19:33] -------------------------------------
+
+[01:19:33] Number of vehicle models: 0
+[01:19:34]  
+[01:19:34]  ========================================== 
+[01:19:34]  |                                        | 
+[01:19:34]  |  A new version (v<html>
+  ) of YSI is  | 
+[01:19:34]  |            available from:             | 
+[01:19:34]  |                                        | 
+[01:19:34]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[01:19:34]  |                                        | 
+[01:19:34]  ========================================== 
+[01:19:34]  
+[01:19:46] Incoming connection: 127.0.0.1:55824
+[01:19:48] Incoming connection: 86.159.38.45:61437
+[01:19:56] Incoming connection: 127.0.0.1:55829
+[01:19:57] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[01:20:29] Incoming connection: 86.159.38.45:54324
+[01:20:29] [join] Winston_Vimes has joined the server (1:86.159.38.45)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[01:28:42] filterscripts = ""  (string)
+[01:28:42] 
+[01:28:42] Server Plugins
+[01:28:42] --------------
+[01:28:42]  Loading plugin: sscanf
+[01:28:42] 
+
+[01:28:42]  ===============================
+
+[01:28:42]       sscanf plugin loaded.     
+
+[01:28:42]          Version:  2.8.1        
+
+[01:28:42]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:28:42]  ===============================
+
+[01:28:42]   Loaded.
+[01:28:42]  Loading plugin: nativechecker
+[01:28:42]   Loaded.
+[01:28:42]  Loaded 2 plugins.
+
+[01:28:42] 
+[01:28:42] Filterscripts
+[01:28:42] ---------------
+[01:28:42]   Loaded 0 filterscripts.
+
+[01:28:42]  
+[01:28:42]  
+[01:28:42]  
+[01:28:42]  ======================================= 
+[01:28:42]  |                                     | 
+[01:28:42]  |        YSI version 3.09.0684        | 
+[01:28:42]  |        By Alex "Y_Less" Cole        | 
+[01:28:42]  |                                     | 
+[01:28:42]  ======================================= 
+[01:28:42]  
+[01:28:42] 
+-------------------------------------
+[01:28:42]  This is the WIP HAC Gamemode v0.001
+[01:28:42] -------------------------------------
+
+[01:28:42] Number of vehicle models: 0
+[01:28:46]  
+[01:28:46]  ========================================== 
+[01:28:46]  |                                        | 
+[01:28:46]  |  A new version (v<html>
+  ) of YSI is  | 
+[01:28:46]  |            available from:             | 
+[01:28:46]  |                                        | 
+[01:28:46]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[01:28:46]  |                                        | 
+[01:28:46]  ========================================== 
+[01:28:46]  
+[01:28:57] Incoming connection: 86.159.38.45:51646
+[01:29:01] Incoming connection: 127.0.0.1:63206
+[01:29:12] Incoming connection: 127.0.0.1:63207
+[01:29:12] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[01:29:36] Incoming connection: 86.159.38.45:62856
+[01:29:36] [join] Winston_Vimes has joined the server (1:86.159.38.45)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[01:33:19] filterscripts = ""  (string)
+[01:33:19] 
+[01:33:19] Server Plugins
+[01:33:19] --------------
+[01:33:19]  Loading plugin: sscanf
+[01:33:19] 
+
+[01:33:19]  ===============================
+
+[01:33:19]       sscanf plugin loaded.     
+
+[01:33:19]          Version:  2.8.1        
+
+[01:33:19]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:33:19]  ===============================
+
+[01:33:19]   Loaded.
+[01:33:19]  Loading plugin: nativechecker
+[01:33:19]   Loaded.
+[01:33:19]  Loaded 2 plugins.
+
+[01:33:19] 
+[01:33:19] Filterscripts
+[01:33:19] ---------------
+[01:33:19]   Loaded 0 filterscripts.
+
+[01:33:19]  
+[01:33:19]  
+[01:33:19]  
+[01:33:19]  ======================================= 
+[01:33:19]  |                                     | 
+[01:33:19]  |        YSI version 3.09.0684        | 
+[01:33:19]  |        By Alex "Y_Less" Cole        | 
+[01:33:19]  |                                     | 
+[01:33:19]  ======================================= 
+[01:33:19]  
+[01:33:19] 
+-------------------------------------
+[01:33:19]  This is the WIP HAC Gamemode v0.001
+[01:33:19] -------------------------------------
+
+[01:33:19] Number of vehicle models: 0
+[01:33:19]  
+[01:33:19]  ========================================== 
+[01:33:19]  |                                        | 
+[01:33:19]  |  A new version (v<html>
+  ) of YSI is  | 
+[01:33:19]  |            available from:             | 
+[01:33:19]  |                                        | 
+[01:33:19]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[01:33:19]  |                                        | 
+[01:33:19]  ========================================== 
+[01:33:19]  
+[01:33:22] Incoming connection: 127.0.0.1:60326
+[01:33:23] Incoming connection: 86.159.38.45:58002
+[01:33:33] Incoming connection: 127.0.0.1:60333
+[01:33:33] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[01:34:12] Incoming connection: 86.159.38.45:49390
+[01:34:12] [join] Winston_Vimes has joined the server (1:86.159.38.45)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[01:39:02] filterscripts = ""  (string)
+[01:39:02] 
+[01:39:02] Server Plugins
+[01:39:02] --------------
+[01:39:02]  Loading plugin: sscanf
+[01:39:02] 
+
+[01:39:02]  ===============================
+
+[01:39:02]       sscanf plugin loaded.     
+
+[01:39:02]          Version:  2.8.1        
+
+[01:39:02]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:39:02]  ===============================
+
+[01:39:02]   Loaded.
+[01:39:02]  Loading plugin: nativechecker
+[01:39:02]   Loaded.
+[01:39:02]  Loaded 2 plugins.
+
+[01:39:02] 
+[01:39:02] Filterscripts
+[01:39:02] ---------------
+[01:39:02]   Loaded 0 filterscripts.
+
+[01:39:02]  
+[01:39:02]  
+[01:39:02]  
+[01:39:02]  ======================================= 
+[01:39:02]  |                                     | 
+[01:39:02]  |        YSI version 3.09.0684        | 
+[01:39:02]  |        By Alex "Y_Less" Cole        | 
+[01:39:02]  |                                     | 
+[01:39:02]  ======================================= 
+[01:39:02]  
+[01:39:02] 
+-------------------------------------
+[01:39:02]  This is the WIP HAC Gamemode v0.001
+[01:39:02] -------------------------------------
+
+[01:39:02] Number of vehicle models: 0
+[01:39:03]  
+[01:39:03]  ========================================== 
+[01:39:03]  |                                        | 
+[01:39:03]  |  A new version (v<html>
+  ) of YSI is  | 
+[01:39:03]  |            available from:             | 
+[01:39:03]  |                                        | 
+[01:39:03]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[01:39:03]  |                                        | 
+[01:39:03]  ========================================== 
+[01:39:03]  
+[01:39:18] Incoming connection: 127.0.0.1:52379
+[01:39:28] Incoming connection: 127.0.0.1:52384
+[01:39:28] [join] Benjamin_Armand has joined the server (0:127.0.0.1)
+[01:40:13] Incoming connection: 86.159.38.45:55336
+[01:40:13] [join] Winston_Vimes has joined the server (1:86.159.38.45)
+[01:48:47] [part] Benjamin_Armand has left the server (0:1)
+[01:50:15] [part] Winston_Vimes has left the server (1:1)

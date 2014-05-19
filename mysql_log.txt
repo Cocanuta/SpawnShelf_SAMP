@@ -1,0 +1,179 @@
+[18:52:22] [DEBUG] mysql_format - connection: 1, len: 128, format: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = '%e' LIMIT 1"
+[18:52:22] [DEBUG] mysql_tquery - connection: 1, query: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = 'Benja", callback: "OnAccountCheck", format: "i"
+[18:52:22] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - starting query execution
+[18:52:22] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - query was successfully executed within 0.235 milliseconds
+[18:52:22] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[18:52:22] [DEBUG] Calling callback "OnAccountCheck"..
+[18:52:22] [DEBUG] cache_get_data - connection: 1
+[18:52:22] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[18:52:25] [DEBUG] mysql_format - connection: 1, len: 400, format: "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `VIP`, `Money`, `PosX` ,`PosY`, `PosZ`, `Health`) VALUES ('%e', '%..."
+[18:52:25] [DEBUG] mysql_tquery - connection: 1, query: "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `V", callback: "OnAccountRegister", format: "i"
+[18:52:25] [DEBUG] CMySQLQuery::Execute[OnAccountRegister] - starting query execution
+[18:52:25] [DEBUG] CMySQLQuery::Execute[OnAccountRegister] - query was successfully executed within 3.878 milliseconds
+[18:52:25] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[18:52:25] [DEBUG] Calling callback "OnAccountRegister"..
+[18:52:25] [DEBUG] cache_insert_id - connection: 1
+[18:52:25] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[18:56:04] [DEBUG] mysql_format - connection: 1, len: 128, format: "UPDATE `players` SET `Admin`=%d, `VIP`=%d, `Money`=%d, `posX`=%f, `posY`=%f, `posZ`=%f, `Health`=%f WHERE `ID`=%d"
+[18:56:04] [ERROR] mysql_format - destination size is too small
+[19:02:40] [DEBUG] mysql_connect - host: "localhost", user: "root", database: "hacserver", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[19:02:40] [DEBUG] CMySQLHandle::Create - creating new connection..
+[19:02:40] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[19:02:40] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[19:02:40] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:02:40] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:02:40] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[19:02:40] [DEBUG] mysql_errno - connection: 1
+[19:02:40] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:02:40] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:02:40] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:02:40] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:02:40] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:02:40] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[19:02:40] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[19:03:02] [DEBUG] mysql_format - connection: 1, len: 128, format: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = '%e' LIMIT 1"
+[19:03:02] [DEBUG] mysql_tquery - connection: 1, query: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = 'Benja", callback: "OnAccountCheck", format: "i"
+[19:03:02] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - starting query execution
+[19:03:02] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - query was successfully executed within 0.267 milliseconds
+[19:03:02] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[19:03:02] [DEBUG] Calling callback "OnAccountCheck"..
+[19:03:02] [DEBUG] cache_get_data - connection: 1
+[19:03:02] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[19:03:07] [DEBUG] mysql_format - connection: 1, len: 400, format: "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `VIP`, `Money`, `PosX` ,`PosY`, `PosZ`, `Health`) VALUES ('%e', '%..."
+[19:03:07] [DEBUG] mysql_tquery - connection: 1, query: "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `V", callback: "OnAccountRegister", format: "i"
+[19:03:07] [DEBUG] CMySQLQuery::Execute[OnAccountRegister] - starting query execution
+[19:03:07] [DEBUG] CMySQLQuery::Execute[OnAccountRegister] - query was successfully executed within 4.246 milliseconds
+[19:03:07] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[19:03:07] [DEBUG] Calling callback "OnAccountRegister"..
+[19:03:07] [DEBUG] cache_insert_id - connection: 1
+[19:03:07] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[19:03:27] [DEBUG] mysql_format - connection: 1, len: 128, format: "UPDATE `players` SET `Admin`=%d, `VIP`=%d, `Money`=%d, `posX`=%f, `posY`=%f, `posZ`=%f, `Health`=%f WHERE `ID`=%d"
+[19:03:27] [ERROR] mysql_format - destination size is too small
+[19:05:47] [DEBUG] mysql_connect - host: "localhost", user: "root", database: "hacserver", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[19:05:47] [DEBUG] CMySQLHandle::Create - creating new connection..
+[19:05:47] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[19:05:47] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[19:05:47] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:05:47] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:05:47] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[19:05:47] [DEBUG] mysql_errno - connection: 1
+[19:05:47] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:05:47] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:05:47] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:05:47] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:05:47] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:05:47] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:05:47] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[19:05:47] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[19:05:48] [DEBUG] mysql_format - connection: 1, len: 128, format: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = '%e' LIMIT 1"
+[19:05:48] [DEBUG] mysql_tquery - connection: 1, query: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = 'Benja", callback: "OnAccountCheck", format: "i"
+[19:05:48] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - starting query execution
+[19:05:48] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - query was successfully executed within 0.347 milliseconds
+[19:05:48] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[19:05:48] [DEBUG] Calling callback "OnAccountCheck"..
+[19:05:48] [DEBUG] cache_get_data - connection: 1
+[19:05:48] [DEBUG] cache_get_field_content - row: 0, field_name: "PASS", connection: 1, max_len: 129
+[19:05:48] [WARNING] CMySQLResult::GetRowDataByName - field not found ("PASS")
+[19:05:48] [DEBUG] cache_get_field_content_int - row: 0, field_name: "ID", connection: 1
+[19:05:48] [DEBUG] CMySQLResult::GetRowDataByName - row: '0', field: "ID", data: "4"
+[19:05:48] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[19:05:55] [DEBUG] mysql_format - connection: 1, len: 128, format: "UPDATE `players` SET `Admin`=%d, `VIP`=%d, `Money`=%d, `posX`=%f, `posY`=%f, `posZ`=%f, `Health`=%f WHERE `ID`=%d"
+[19:05:55] [ERROR] mysql_format - destination size is too small
+[19:06:53] [DEBUG] mysql_format - connection: 1, len: 128, format: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = '%e' LIMIT 1"
+[19:06:53] [DEBUG] mysql_tquery - connection: 1, query: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = 'Benja", callback: "OnAccountCheck", format: "i"
+[19:06:53] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - starting query execution
+[19:06:53] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - query was successfully executed within 0.226 milliseconds
+[19:06:53] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[19:06:53] [DEBUG] Calling callback "OnAccountCheck"..
+[19:06:53] [DEBUG] cache_get_data - connection: 1
+[19:06:53] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[19:06:59] [DEBUG] mysql_format - connection: 1, len: 400, format: "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `VIP`, `Money`, `PosX` ,`PosY`, `PosZ`, `Health`) VALUES ('%e', '%..."
+[19:06:59] [DEBUG] mysql_tquery - connection: 1, query: "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `V", callback: "OnAccountRegister", format: "i"
+[19:06:59] [DEBUG] CMySQLQuery::Execute[OnAccountRegister] - starting query execution
+[19:06:59] [DEBUG] CMySQLQuery::Execute[OnAccountRegister] - query was successfully executed within 3.769 milliseconds
+[19:06:59] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[19:06:59] [DEBUG] Calling callback "OnAccountRegister"..
+[19:06:59] [DEBUG] cache_insert_id - connection: 1
+[19:06:59] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[19:07:19] [DEBUG] mysql_format - connection: 1, len: 128, format: "UPDATE `players` SET `Admin`=%d, `VIP`=%d, `Money`=%d, `posX`=%f, `posY`=%f, `posZ`=%f, `Health`=%f WHERE `ID`=%d"
+[19:07:19] [ERROR] mysql_format - destination size is too small
+[19:49:34] [DEBUG] mysql_connect - host: "localhost", user: "root", database: "hacserver", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[19:49:34] [DEBUG] CMySQLHandle::Create - creating new connection..
+[19:49:34] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[19:49:34] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[19:49:34] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:49:34] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:49:34] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[19:49:34] [DEBUG] mysql_errno - connection: 1
+[19:49:34] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:49:34] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:49:34] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:49:34] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:49:34] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:49:34] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[19:49:55] [DEBUG] mysql_format - connection: 1, len: 128, format: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = '%e' LIMIT 1"
+[19:49:55] [DEBUG] mysql_tquery - connection: 1, query: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = 'Benja", callback: "OnAccountCheck", format: "i"
+[19:49:55] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - starting query execution
+[19:49:55] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - query was successfully executed within 0.345 milliseconds
+[19:49:55] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[19:49:55] [DEBUG] Calling callback "OnAccountCheck"..
+[19:49:55] [DEBUG] cache_get_data - connection: 1
+[19:49:55] [DEBUG] cache_get_field_content - row: 0, field_name: "PASS", connection: 1, max_len: 129
+[19:49:55] [WARNING] CMySQLResult::GetRowDataByName - field not found ("PASS")
+[19:49:55] [DEBUG] cache_get_field_content_int - row: 0, field_name: "ID", connection: 1
+[19:49:55] [DEBUG] CMySQLResult::GetRowDataByName - row: '0', field: "ID", data: "5"
+[19:49:55] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[19:50:04] [DEBUG] mysql_format - connection: 1, len: 128, format: "UPDATE `players` SET `Admin`=%d, `VIP`=%d, `Money`=%d, `posX`=%f, `posY`=%f, `posZ`=%f, `Health`=%f WHERE `ID`=%d"
+[19:50:04] [ERROR] mysql_format - destination size is too small
+[19:50:38] [DEBUG] mysql_format - connection: 1, len: 128, format: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = '%e' LIMIT 1"
+[19:50:38] [DEBUG] mysql_tquery - connection: 1, query: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = 'Benja", callback: "OnAccountCheck", format: "i"
+[19:50:38] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - starting query execution
+[19:50:38] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - query was successfully executed within 0.225 milliseconds
+[19:50:38] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[19:50:38] [DEBUG] Calling callback "OnAccountCheck"..
+[19:50:38] [DEBUG] cache_get_data - connection: 1
+[19:50:38] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[19:50:45] [DEBUG] mysql_format - connection: 1, len: 400, format: "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `VIP`, `Money`, `PosX` ,`PosY`, `PosZ`, `Health`) VALUES ('%e', '%..."
+[19:50:45] [DEBUG] mysql_tquery - connection: 1, query: "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `V", callback: "OnAccountRegister", format: "i"
+[19:50:45] [DEBUG] CMySQLQuery::Execute[OnAccountRegister] - starting query execution
+[19:50:45] [DEBUG] CMySQLQuery::Execute[OnAccountRegister] - query was successfully executed within 3.551 milliseconds
+[19:50:45] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[19:50:45] [DEBUG] Calling callback "OnAccountRegister"..
+[19:50:45] [DEBUG] cache_insert_id - connection: 1
+[19:50:45] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[19:50:54] [DEBUG] mysql_format - connection: 1, len: 128, format: "UPDATE `players` SET `Admin`=%d, `VIP`=%d, `Money`=%d, `posX`=%f, `posY`=%f, `posZ`=%f, `Health`=%f WHERE `ID`=%d"
+[19:50:54] [ERROR] mysql_format - destination size is too small
+[19:52:03] [DEBUG] mysql_connect - host: "localhost", user: "root", database: "hacserver", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[19:52:03] [DEBUG] CMySQLHandle::Create - creating new connection..
+[19:52:03] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[19:52:03] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[19:52:03] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:52:03] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:52:03] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[19:52:03] [DEBUG] mysql_errno - connection: 1
+[19:52:03] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:52:03] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[19:52:03] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:52:03] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:52:03] [DEBUG] CMySQLConnection::Connect - connection was successful
+[19:52:03] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[19:52:03] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[19:52:03] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[19:52:33] [DEBUG] mysql_format - connection: 1, len: 128, format: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = '%e' LIMIT 1"
+[19:52:33] [DEBUG] mysql_tquery - connection: 1, query: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = 'Benja", callback: "OnAccountCheck", format: "i"
+[19:52:33] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - starting query execution
+[19:52:33] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - query was successfully executed within 0.274 milliseconds
+[19:52:33] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[19:52:33] [DEBUG] Calling callback "OnAccountCheck"..
+[19:52:33] [DEBUG] cache_get_data - connection: 1
+[19:52:33] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[19:52:41] [DEBUG] mysql_format - connection: 1, len: 400, format: "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `VIP`, `Money`, `PosX` ,`PosY`, `PosZ`, `Health`) VALUES ('%e', '%..."
+[19:52:41] [DEBUG] mysql_tquery - connection: 1, query: "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `V", callback: "OnAccountRegister", format: "i"
+[19:52:41] [DEBUG] CMySQLQuery::Execute[OnAccountRegister] - starting query execution
+[19:52:41] [DEBUG] CMySQLQuery::Execute[OnAccountRegister] - query was successfully executed within 9.487 milliseconds
+[19:52:41] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[19:52:41] [DEBUG] Calling callback "OnAccountRegister"..
+[19:52:41] [DEBUG] cache_insert_id - connection: 1
+[19:52:41] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[19:52:45] [DEBUG] mysql_format - connection: 1, len: 128, format: "UPDATE `players` SET `Admin`=%d, `VIP`=%d, `Money`=%d, `posX`=%f, `posY`=%f, `posZ`=%f, `Health`=%f WHERE `ID`=%d"
+[19:52:45] [ERROR] mysql_format - destination size is too small
