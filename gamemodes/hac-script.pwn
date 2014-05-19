@@ -13,6 +13,7 @@
 
 //-----------------------------------------INCLUDES-----------------------------------------//
 #include <a_samp> //Without this, we won't be able to use all samp functions/callbacks.
+#include <a_mysql> //This handles all MySQL stuff.
 #include <zcmd> //This is ZCMD this is a great little command processor.
 #include <foreach> //This is foreach by YSI.
 #include <sscanf2> //this is sscanf2 by YSI.
@@ -23,7 +24,33 @@
 #define	COLOR_YELLOW	0xFFFFCCAA
 #define	COLOR_WHITE		0xFFFFFFAA
 
+#define	DIALOG_REGISTER	6287
+#define	DIALOG_LOGIN	6288
+
+#define SQL_HOST	"localhost"
+#define SQL_USER	"root"
+#define SQL_PASS	""
+#define SQL_DB		"hacserver"
+
 new bool:oocToggle[MAX_PLAYERS];
+
+static mysql, Name[MAX_PLAYERS][24], IP[MAX_PLAYERS][16];
+
+enum pInfo
+{
+	ID,
+	Password,
+	Admin,
+	VIP,
+	Money,
+	Float:PosX,
+	Float:PosY,
+	Float:PosZ,
+	Float:Health,
+	Skin
+}
+
+new PlayerInfo[MAX_PLAYERS][pInfo];
 
 //-----------------------------------------STOCKS-----------------------------------------//
 
@@ -87,17 +114,110 @@ main()
 //This runs when the gamemode script is first loaded, so far it disables the default GTA yellow interior markers, disables stunt bonus' and removes markers.
 public OnGameModeInit()
 {
+	mysql_log(LOG_ERROR | LOG_WARNING | LOG_DEBUG);
+    mysql = mysql_connect(SQL_HOST, SQL_USER, SQL_DB, SQL_PASS);
+    if(mysql_errno(mysql) != 0) print("Could not connect to database!");
+	
 	DisableInteriorEnterExits();
 	EnableStuntBonusForAll(0);
 	ShowPlayerMarkers(0);
+	SetGameModeText("SS-SAMP-RP");
 	return 1;
 }
 
 //This runs when ever a player connects. Right now it sets their name to white, and toggles the OOC chat to "on".
 public OnPlayerConnect(playerid)
 {
-	oocToggle[playerid] = false;
+	TogglePlayerSpectating(playerid, true);
+	SetPlayerFacingAngle(playerid,224.2720);
+	SetPlayerCameraPos(playerid, 1252.1219,-778.5645,109.4652);
+	SetPlayerCameraLookAt(playerid,1252.1219,-778.5645,109.4652);
 	SetPlayerColor(playerid, COLOR_WHITE);
+	
+	new query[128];
+	GetPlayerName(playerid, Name[playerid], 24);
+	GetPlayerIp(playerid, IP[playerid], 16);
+	mysql_format(mysql, query, sizeof(query), "SELECT `Password`, `ID` FROM `players` WHERE `Username` = '%e' LIMIT 1", Name[playerid]);
+    mysql_tquery(mysql, query, "OnAccountCheck", "i", playerid);
+	return 1;
+}
+
+forward OnAccountCheck(playerid);
+
+public OnAccountCheck(playerid)
+{
+	new rows, fields;
+	cache_get_data(rows, fields, mysql);
+	if(rows)
+	{
+		cache_get_field_content(0, "Password", PlayerInfo[playerid][Password], mysql, 129);
+		PlayerInfo[playerid][ID] = cache_get_field_content_int(0, "ID");
+		printf("%s", PlayerInfo[playerid][Password]);
+		ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "In order to play, you need to login.", "Login", "Quit");
+	}
+	else
+	{
+		ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", "In order to play, you need to register.", "Register", "Quit");
+	}
+	return 1;
+}
+
+forward OnAccountLoad(playerid);
+forward OnAccountRegister(playerid);
+
+public OnAccountLoad(playerid)
+{
+	PlayerInfo[playerid][Admin] = cache_get_field_content_int(0, "Admin");
+	PlayerInfo[playerid][VIP] = cache_get_field_content_int(0, "VIP");
+	PlayerInfo[playerid][Money] = cache_get_field_content_int(0, "Money");
+	PlayerInfo[playerid][PosX] = cache_get_field_content_float(0, "PosX");
+	PlayerInfo[playerid][PosY] = cache_get_field_content_float(0, "PosY");
+	PlayerInfo[playerid][PosZ] = cache_get_field_content_float(0, "PosZ");
+	PlayerInfo[playerid][Health] = cache_get_field_content_float(0, "Health");
+	PlayerInfo[playerid][Skin] = cache_get_field_content_int(0, "Skin");
+	
+	SetSpawnInfo(playerid, 0, PlayerInfo[playerid][Skin], PlayerInfo[playerid][PosX], PlayerInfo[playerid][PosY], PlayerInfo[playerid][PosZ], 0, 0, 0, 0, 0, 0, 0);
+	GivePlayerMoney(playerid, PlayerInfo[playerid][Money]);
+	SetPlayerHealth(playerid, PlayerInfo[playerid][Health]);
+	SendClientMessage(playerid, -1, "Successfully logged in!");
+	TogglePlayerSpectating(playerid, false);
+	return 1;
+}
+
+public OnAccountRegister(playerid)
+{
+	PlayerInfo[playerid][ID] = cache_insert_id();
+	printf("New account registered. ID: %d", PlayerInfo[playerid][ID]);
+	return OnAccountLoad(playerid);
+}
+
+public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
+{
+	switch(dialogid)
+	{
+		case DIALOG_LOGIN:
+		{
+			if(!response) Kick(playerid);
+			new query[100];
+			if(!strcmp(inputtext, PlayerInfo[playerid][Password]))
+			{
+				mysql_format(mysql, query, sizeof(query), "SELECT * FROM `players` WHERE `Username` = '%e' LIMIT 1", Name[playerid]);
+				mysql_tquery(mysql, query, "OnAccountLoad", "i", playerid);
+			}
+			else
+			{
+				ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "In order to play, you need to login.\nWrong Password!", "Login", "Quit");
+			}
+		}
+		case DIALOG_REGISTER:
+		{
+			if(!response) return Kick(playerid);
+			if(strlen(inputtext) < 6) return ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", "In order to play, you need to register.\nYour password must be at least 6 characters long!", "Register", "Quit");
+			new query[300];
+			mysql_format(mysql, query, sizeof(query), "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `VIP`, `Money`, `PosX`, `PosY`, `PosZ`, `Health`, `Skin`) VALUES ('%e', '%s', '%s', 0, 0, 0, 1317.179809, -915.674011, 37.903450, 100, 0)", Name[playerid], inputtext, IP[playerid]);
+			mysql_tquery(mysql, query, "OnAccountRegister", "i", playerid);
+		}
+	}
 	return 1;
 }
 
@@ -111,15 +231,21 @@ public OnPlayerText(playerid, text[])
 }
 
 //This executes on player disconnect.
- public OnPlayerDisconnect(playerid, reason)
- {
+public OnPlayerDisconnect(playerid, reason)
+{
+	new query[168], Float:pos[3], Float:health;
+	GetPlayerHealth(playerid, health);
+	GetPlayerPos(playerid, pos[0], pos[1], pos[2]);
+	mysql_format(mysql, query, sizeof(query), "UPDATE `players` SET `Admin`=%d, `VIP`=%d, `Money`=%d, `PosX`=%f, `PosY`=%f, `PosZ`=%f, `Health`=%f, `Skin`=%d WHERE `ID`=%d", PlayerInfo[playerid][Admin], PlayerInfo[playerid][VIP], PlayerInfo[playerid][Money], pos[0], pos[1], pos[2], health, PlayerInfo[playerid][Skin], PlayerInfo[playerid][ID]);
+	mysql_tquery(mysql, query, "", "");
 	return 1;
 }
 
 //This executes when the player spawns, I use it to set their location for debugging.
 public OnPlayerSpawn(playerid)
 {
-	SetPlayerPos(playerid, 1317.179809, -915.674011, 37.903450);
+	SetPlayerSkin(playerid, PlayerInfo[playerid][Skin]);
+	SetPlayerPos(playerid, PlayerInfo[playerid][PosX], PlayerInfo[playerid][PosY], PlayerInfo[playerid][PosZ]);
 	return 1;
 }
 
@@ -141,6 +267,7 @@ CMD:skin(playerid, params[])
 		{
 			format(string, sizeof(string), "Your skin has been set to ID:%s.", skinid);
 			SetPlayerSkin(playerid, skinid);
+			PlayerInfo[playerid][Skin] = skinid;
 		}
 		else
 		{
