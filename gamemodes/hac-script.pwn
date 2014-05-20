@@ -32,6 +32,14 @@
 #define SQL_PASS	""
 #define SQL_DB		"hacserver"
 
+new Text:loginScreen1;
+new Text:loginScreen2;
+
+new Text:actionMenuBox;
+new Text:actionMenuInv;
+new Text:actionMenuInteract;
+new Text:actionMenuCancel;
+
 new bool:oocToggle[MAX_PLAYERS];
 
 static mysql, Name[MAX_PLAYERS][24], IP[MAX_PLAYERS][16];
@@ -46,6 +54,7 @@ enum pInfo
 	Float:PosX,
 	Float:PosY,
 	Float:PosZ,
+	Float:PosAngle,
 	Float:Health,
 	Skin
 }
@@ -101,6 +110,52 @@ stock oocChat(color, string[])
 	}
 }
 
+stock LoadVehicles()
+{
+	new Cache:vQuery = mysql_query(mysql, "SELECT * FROM `vehicles`");
+	new vi = 0, rows, fields, vModelID, Float:vPos[4], vColour1, vColour2;
+	cache_get_data(rows, fields);
+	for(new row = 0; row != rows; row++)
+	{
+		vModelID = cache_get_field_content_int(row, "ModelID");
+		vPos[0] = cache_get_field_content_float(row, "PosX");
+		vPos[1] = cache_get_field_content_float(row, "PosY");
+		vPos[2] = cache_get_field_content_float(row, "PosZ");
+		vPos[3] = cache_get_field_content_float(row, "PosAngle");
+		vColour1 = cache_get_field_content_int(row, "Colour1");
+		vColour2 = cache_get_field_content_int(row, "Colour2");
+		CreateVehicle(vModelID, vPos[0], vPos[1], vPos[2], vPos[3], vColour1, vColour2, -1);
+		vi++;
+	}
+	cache_delete(vQuery);
+	printf("%i vehicles loaded from the MySQL Database.", vi);
+	return 1;
+}
+
+stock AddVehicle(playerid, modelid)
+{
+	new Float:pos[4], colour1 = random(100), colour2 = random(100);
+	GetPlayerPos(playerid,pos[0],pos[1],pos[2]);
+	GetPlayerFacingAngle(playerid, pos[3]);
+	CreateVehicle(modelid, pos[0], pos[1], pos[2], pos[3], colour1, colour2, -1);
+	new query[300];
+	mysql_format(mysql, query, sizeof(query), "INSERT INTO `vehicles` (`ModelID`, `PosX`, `PosY`, `PosZ`, `PosAngle`, Colour1, Colour2) VALUES ('%d', '%f', '%f', '%f', '%f', '%d', '%d')", modelid, pos[0], pos[1], pos[2], pos[3], colour1, colour2);
+	mysql_query(mysql, query);
+	return 1;
+}
+
+stock IsAdmin(playerid)
+{
+	if(PlayerInfo[playerid][Admin] != 0)
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
+
 //-----------------------------------------CALLBACKS-----------------------------------------//
 
 //This is the main function which executes when the server loads, right now it just prints the gamemode version to the console.
@@ -118,6 +173,65 @@ public OnGameModeInit()
     mysql = mysql_connect(SQL_HOST, SQL_USER, SQL_DB, SQL_PASS);
     if(mysql_errno(mysql) != 0) print("Could not connect to database!");
 	
+	LoadVehicles();
+	
+	loginScreen2 = TextDrawCreate(0.0, 0.0, "~n~~n~~n~~n~~n~~n~~n~~n~~n~");
+	TextDrawUseBox(loginScreen2, 1);
+	TextDrawBoxColor(loginScreen2, 0x000000AA);
+	TextDrawTextSize(loginScreen2, 640.00, 20.00);
+	loginScreen1 = TextDrawCreate(320.00, 15.00, "SPAWNSHELF RP");
+	TextDrawAlignment(loginScreen1, 2);
+	TextDrawFont(loginScreen1, 2);
+	TextDrawLetterSize(loginScreen1, 1.2, 3.6);
+	TextDrawTextSize(loginScreen1, 35.0, 45.0);
+	
+	actionMenuBox = TextDrawCreate(320.0, 143.0, "~n~Menu~n~~n~~n~~n~~n~~n~~n~~n~~n~_");
+	TextDrawAlignment(actionMenuBox, 2);
+	TextDrawBackgroundColor(actionMenuBox, 255);
+	TextDrawFont(actionMenuBox, 2);
+	TextDrawLetterSize(actionMenuBox, 0.5, 1);
+	TextDrawColor(actionMenuBox, -1);
+	TextDrawSetOutline(actionMenuBox, 0);
+	TextDrawSetShadow(actionMenuBox, 1);
+	TextDrawSetProportional(actionMenuBox, 1);
+	TextDrawUseBox(actionMenuBox, 255);
+	TextDrawTextSize(actionMenuBox, 45.0, 115.0);
+	
+	actionMenuInteract = TextDrawCreate(320.0, 180.0, "Interact");
+	TextDrawAlignment(actionMenuInteract, 2);
+    TextDrawBackgroundColor(actionMenuInteract, 255);
+    TextDrawFont(actionMenuInteract, 2);
+    TextDrawLetterSize(actionMenuInteract, 0.260000, 0.799999);
+    TextDrawColor(actionMenuInteract, -1);
+    TextDrawSetOutline(actionMenuInteract, 0);
+    TextDrawSetProportional(actionMenuInteract, 1);
+    TextDrawSetShadow(actionMenuInteract, 1);
+	
+	actionMenuInv = TextDrawCreate(320.000000, 205.000000, "Inventory");
+    TextDrawAlignment(actionMenuInv, 2);
+    TextDrawBackgroundColor(actionMenuInv, 255);
+    TextDrawFont(actionMenuInv, 2);
+    TextDrawLetterSize(actionMenuInv, 0.260000, 0.799999);
+    TextDrawColor(actionMenuInv, -1);
+    TextDrawSetOutline(actionMenuInv, 0);
+    TextDrawSetProportional(actionMenuInv, 1);
+    TextDrawSetShadow(actionMenuInv, 1);
+	
+	actionMenuCancel = TextDrawCreate(320.000000, 230.000000, "Close");
+    TextDrawAlignment(actionMenuCancel, 2);
+    TextDrawBackgroundColor(actionMenuCancel, 255);
+    TextDrawFont(actionMenuCancel, 2);
+    TextDrawLetterSize(actionMenuCancel, 0.260000, 0.799999);
+    TextDrawColor(actionMenuCancel, -1);
+    TextDrawSetOutline(actionMenuCancel, 0);
+    TextDrawSetProportional(actionMenuCancel, 1);
+    TextDrawSetShadow(actionMenuCancel, 1);
+	
+	TextDrawSetSelectable(actionMenuBox, false);
+	TextDrawSetSelectable(actionMenuInteract, true);
+	TextDrawSetSelectable(actionMenuInv, true);
+	TextDrawSetSelectable(actionMenuCancel, true);
+	
 	DisableInteriorEnterExits();
 	EnableStuntBonusForAll(0);
 	ShowPlayerMarkers(0);
@@ -128,6 +242,8 @@ public OnGameModeInit()
 //This runs when ever a player connects. Right now it sets their name to white, and toggles the OOC chat to "on".
 public OnPlayerConnect(playerid)
 {
+	TextDrawShowForPlayer(playerid, loginScreen2);
+	TextDrawShowForPlayer(playerid, loginScreen1);
 	TogglePlayerSpectating(playerid, true);
 	SetPlayerFacingAngle(playerid,224.2720);
 	SetPlayerCameraPos(playerid, 1252.1219,-778.5645,109.4652);
@@ -173,14 +289,17 @@ public OnAccountLoad(playerid)
 	PlayerInfo[playerid][PosX] = cache_get_field_content_float(0, "PosX");
 	PlayerInfo[playerid][PosY] = cache_get_field_content_float(0, "PosY");
 	PlayerInfo[playerid][PosZ] = cache_get_field_content_float(0, "PosZ");
+	PlayerInfo[playerid][PosAngle] = cache_get_field_content_float(0, "PosAngle");
 	PlayerInfo[playerid][Health] = cache_get_field_content_float(0, "Health");
 	PlayerInfo[playerid][Skin] = cache_get_field_content_int(0, "Skin");
 	
-	SetSpawnInfo(playerid, 0, PlayerInfo[playerid][Skin], PlayerInfo[playerid][PosX], PlayerInfo[playerid][PosY], PlayerInfo[playerid][PosZ], 0, 0, 0, 0, 0, 0, 0);
+	SetSpawnInfo(playerid, 0, PlayerInfo[playerid][Skin], PlayerInfo[playerid][PosX], PlayerInfo[playerid][PosY], PlayerInfo[playerid][PosZ], PlayerInfo[playerid][PosAngle], 0, 0, 0, 0, 0, 0);
 	GivePlayerMoney(playerid, PlayerInfo[playerid][Money]);
 	SetPlayerHealth(playerid, PlayerInfo[playerid][Health]);
 	SendClientMessage(playerid, -1, "Successfully logged in!");
 	TogglePlayerSpectating(playerid, false);
+	TextDrawHideForPlayer(playerid, loginScreen1);
+	TextDrawHideForPlayer(playerid, loginScreen2);
 	return 1;
 }
 
@@ -214,7 +333,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			if(!response) return Kick(playerid);
 			if(strlen(inputtext) < 6) return ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Register", "In order to play, you need to register.\nYour password must be at least 6 characters long!", "Register", "Quit");
 			new query[300];
-			mysql_format(mysql, query, sizeof(query), "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `VIP`, `Money`, `PosX`, `PosY`, `PosZ`, `Health`, `Skin`) VALUES ('%e', '%s', '%s', 0, 0, 0, 1317.179809, -915.674011, 37.903450, 100, 0)", Name[playerid], inputtext, IP[playerid]);
+			mysql_format(mysql, query, sizeof(query), "INSERT INTO `players` (`Username`, `Password`, `IP`, `Admin`, `VIP`, `Money`, `PosX`, `PosY`, `PosZ`, `PosAngle`, `Health`, `Skin`) VALUES ('%e', '%s', '%s', 0, 0, 0, 1317.179809, -915.674011, 37.903450, 180, 100, 0)", Name[playerid], inputtext, IP[playerid]);
 			mysql_tquery(mysql, query, "OnAccountRegister", "i", playerid);
 		}
 	}
@@ -233,10 +352,11 @@ public OnPlayerText(playerid, text[])
 //This executes on player disconnect.
 public OnPlayerDisconnect(playerid, reason)
 {
-	new query[168], Float:pos[3], Float:health;
+	new query[300], Float:pos[3], Float:health, Float:angle;
 	GetPlayerHealth(playerid, health);
 	GetPlayerPos(playerid, pos[0], pos[1], pos[2]);
-	mysql_format(mysql, query, sizeof(query), "UPDATE `players` SET `Admin`=%d, `VIP`=%d, `Money`=%d, `PosX`=%f, `PosY`=%f, `PosZ`=%f, `Health`=%f, `Skin`=%d WHERE `ID`=%d", PlayerInfo[playerid][Admin], PlayerInfo[playerid][VIP], PlayerInfo[playerid][Money], pos[0], pos[1], pos[2], health, PlayerInfo[playerid][Skin], PlayerInfo[playerid][ID]);
+	GetPlayerFacingAngle(playerid, angle);
+	mysql_format(mysql, query, sizeof(query), "UPDATE `players` SET `Admin`=%d, `VIP`=%d, `Money`=%d, `PosX`=%f, `PosY`=%f, `PosZ`=%f, `PosAngle`=%f, `Health`=%f, `Skin`=%d WHERE `ID`=%d", PlayerInfo[playerid][Admin], PlayerInfo[playerid][VIP], PlayerInfo[playerid][Money], pos[0], pos[1], pos[2], angle, health, PlayerInfo[playerid][Skin], PlayerInfo[playerid][ID]);
 	mysql_tquery(mysql, query, "", "");
 	return 1;
 }
@@ -246,6 +366,54 @@ public OnPlayerSpawn(playerid)
 {
 	SetPlayerSkin(playerid, PlayerInfo[playerid][Skin]);
 	SetPlayerPos(playerid, PlayerInfo[playerid][PosX], PlayerInfo[playerid][PosY], PlayerInfo[playerid][PosZ]);
+	SetPlayerFacingAngle(playerid, PlayerInfo[playerid][PosAngle]);
+	return 1;
+}
+
+public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
+{
+	if ((newkeys & KEY_YES) && !(oldkeys & KEY_YES))
+	{
+			TextDrawShowForPlayer(playerid, actionMenuBox);
+			TextDrawShowForPlayer(playerid, actionMenuInteract);
+			TextDrawShowForPlayer(playerid, actionMenuInv);
+			TextDrawShowForPlayer(playerid, actionMenuCancel);
+			
+			SelectTextDraw(playerid, 0xA3B4C5FF);
+			return 1;
+	}
+	return 0;
+}
+
+public OnPlayerClickTextDraw(playerid, Text:clickedid)
+{
+	if(_:clickedid != INVALID_TEXT_DRAW)
+	{
+		if(clickedid == actionMenuInteract)
+		{
+			SendClientMessage(playerid, -1, "Interact Menu Debug.");
+		}
+		else if(clickedid == actionMenuInv)
+		{
+			SendClientMessage(playerid, -1, "Inventory Menu Debug.");
+		}
+		else if(clickedid == actionMenuCancel)
+		{
+			SendClientMessage(playerid, -1, "Action Menu Closed Debug");
+		}
+		TextDrawHideForPlayer(playerid, actionMenuBox);
+		TextDrawHideForPlayer(playerid, actionMenuInteract);
+		TextDrawHideForPlayer(playerid, actionMenuInv);
+		TextDrawHideForPlayer(playerid, actionMenuCancel);
+		CancelSelectTextDraw(playerid);
+	}
+	else
+	{
+	TextDrawHideForPlayer(playerid, actionMenuBox);
+	TextDrawHideForPlayer(playerid, actionMenuInteract);
+	TextDrawHideForPlayer(playerid, actionMenuInv);
+	TextDrawHideForPlayer(playerid, actionMenuCancel);
+	}
 	return 1;
 }
 
@@ -278,12 +446,50 @@ CMD:skin(playerid, params[])
 	return 1;
 }
 
+CMD:addvehicle(playerid, params[])
+{
+	new modelid[10];
+	if(IsAdmin(playerid))
+	{
+	if(sscanf(params, "s[100]", modelid))
+	{
+		SendClientMessage(playerid, -1, "USAGE: /addv [model id]");
+		return 1;
+	}
+	else
+	{
+		new id = strval(modelid);
+		if(id > 400 && id < 611)
+		{
+			SendClientMessage(playerid, -1, "Vehicle created!");
+			return AddVehicle(playerid, id);
+		}
+		else
+		{
+			SendClientMessage(playerid, -1, "This is not a valid vehicle ID.");
+			return 1;
+		}
+	}
+	}
+	else
+	{
+		SendClientMessage(playerid, -1, "You do not have permission to use /addvehicle.");
+		return 1;
+	}
+}
+
 //This command lets the user spawn a motorbike on their current location. [DEBUG]
 CMD:bike(playerid, params[])
 {
 	new Float:vehicle[3];
 	GetPlayerPos(playerid, vehicle[0], vehicle[1], vehicle[2]);
 	CreateVehicle(468, vehicle[0], vehicle[1], vehicle[2], 90, 0, 1, -1);
+	return 1;
+}
+
+CMD:tp(playerid, params[])
+{
+	SetPlayerPos(playerid, 1317.179809, -915.674011, 37.903450);
 	return 1;
 }
 

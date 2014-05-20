@@ -177,3 +177,57 @@
 [19:52:41] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
 [19:52:45] [DEBUG] mysql_format - connection: 1, len: 128, format: "UPDATE `players` SET `Admin`=%d, `VIP`=%d, `Money`=%d, `posX`=%f, `posY`=%f, `posZ`=%f, `Health`=%f WHERE `ID`=%d"
 [19:52:45] [ERROR] mysql_format - destination size is too small
+[20:33:53] [DEBUG] mysql_connect - host: "localhost", user: "root", database: "hacserver", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[20:33:53] [DEBUG] CMySQLHandle::Create - creating new connection..
+[20:33:53] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[20:33:53] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[20:33:53] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[20:33:53] [DEBUG] CMySQLConnection::Connect - connection was successful
+[20:33:53] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[20:33:53] [DEBUG] mysql_errno - connection: 1
+[20:33:53] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[20:33:53] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[20:33:53] [DEBUG] CMySQLConnection::Connect - connection was successful
+[20:33:53] [DEBUG] CMySQLConnection::Connect - connection was successful
+[20:33:53] [DEBUG] CMySQLConnection::Connect - connection was successful
+[20:33:53] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[20:34:27] [DEBUG] mysql_format - connection: 1, len: 128, format: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = '%e' LIMIT 1"
+[20:34:27] [DEBUG] mysql_tquery - connection: 1, query: "SELECT `Password`, `ID` FROM `players` WHERE `Username` = 'Benja", callback: "OnAccountCheck", format: "i"
+[20:34:27] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - starting query execution
+[20:34:27] [DEBUG] CMySQLQuery::Execute[OnAccountCheck] - query was successfully executed within 0.266 milliseconds
+[20:34:27] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[20:34:27] [DEBUG] Calling callback "OnAccountCheck"..
+[20:34:27] [DEBUG] cache_get_data - connection: 1
+[20:34:27] [DEBUG] cache_get_field_content - row: 0, field_name: "Password", connection: 1, max_len: 129
+[20:34:27] [DEBUG] CMySQLResult::GetRowDataByName - row: '0', field: "Password", data: "b3njam1n"
+[20:34:27] [DEBUG] cache_get_field_content_int - row: 0, field_name: "ID", connection: 1
+[20:34:27] [DEBUG] CMySQLResult::GetRowDataByName - row: '0', field: "ID", data: "9"
+[20:34:27] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[20:35:01] [DEBUG] mysql_format - connection: 1, len: 100, format: "SELECT * FROM `players` WHERE `Username` = '%e' LIMIT 1"
+[20:35:01] [DEBUG] mysql_tquery - connection: 1, query: "SELECT * FROM `players` WHERE `Username` = 'Benjamin_Nobel' LIMI", callback: "OnAccountLoad", format: "i"
+[20:35:01] [DEBUG] CMySQLQuery::Execute[OnAccountLoad] - starting query execution
+[20:35:01] [DEBUG] CMySQLQuery::Execute[OnAccountLoad] - query was successfully executed within 0.270 milliseconds
+[20:35:01] [DEBUG] CMySQLResult::CMySQLResult() - constructor called
+[20:35:01] [DEBUG] Calling callback "OnAccountLoad"..
+[20:35:01] [DEBUG] cache_get_field_content_int - row: 0, field_name: "Admin", connection: 1
+[20:35:01] [DEBUG] CMySQLResult::GetRowDataByName - row: '0', field: "Admin", data: "0"
+[20:35:01] [DEBUG] cache_get_field_content_int - row: 0, field_name: "VIP", connection: 1
+[20:35:01] [DEBUG] CMySQLResult::GetRowDataByName - row: '0', field: "VIP", data: "0"
+[20:35:01] [DEBUG] cache_get_field_content_int - row: 0, field_name: "Money", connection: 1
+[20:35:01] [DEBUG] CMySQLResult::GetRowDataByName - row: '0', field: "Money", data: "0"
+[20:35:01] [DEBUG] cache_get_field_content_float - row: 0, field_name: "PosX", connection: 1
+[20:35:01] [DEBUG] CMySQLResult::GetRowDataByName - row: '0', field: "PosX", data: "1121.88"
+[20:35:01] [DEBUG] cache_get_field_content_float - row: 0, field_name: "PosY", connection: 1
+[20:35:01] [DEBUG] CMySQLResult::GetRowDataByName - row: '0', field: "PosY", data: "-950.985"
+[20:35:01] [DEBUG] cache_get_field_content_float - row: 0, field_name: "PosZ", connection: 1
+[20:35:01] [DEBUG] CMySQLResult::GetRowDataByName - row: '0', field: "PosZ", data: "42.6117"
+[20:35:01] [DEBUG] cache_get_field_content_float - row: 0, field_name: "Health", connection: 1
+[20:35:01] [DEBUG] CMySQLResult::GetRowDataByName - row: '0', field: "Health", data: "78"
+[20:35:01] [DEBUG] cache_get_field_content_int - row: 0, field_name: "Skin", connection: 1
+[20:35:01] [DEBUG] CMySQLResult::GetRowDataByName - row: '0', field: "Skin", data: "3"
+[20:35:01] [DEBUG] CMySQLResult::~CMySQLResult() - deconstructor called
+[20:35:24] [DEBUG] mysql_format - connection: 1, len: 168, format: "UPDATE `players` SET `Admin`=%d, `VIP`=%d, `Money`=%d, `PosX`=%f, `PosY`=%f, `PosZ`=%f, `Health`=%f, `Skin`=%d WHERE `ID`=%d"
+[20:35:24] [DEBUG] mysql_tquery - connection: 1, query: "UPDATE `players` SET `Admin`=0, `VIP`=0, `Money`=0, `PosX`=1087.", callback: "(null)", format: "(null)"
+[20:35:24] [DEBUG] CMySQLQuery::Execute[] - starting query execution
+[20:35:24] [DEBUG] CMySQLQuery::Execute[] - query was successfully executed within 5.942 milliseconds
+[20:35:24] [DEBUG] CMySQLQuery::Execute[] - no callback specified, skipping result saving

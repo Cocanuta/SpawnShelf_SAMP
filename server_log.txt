@@ -2298,3 +2298,73 @@ v0.3z, (C)2005-2014 SA-MP Team
 [01:40:13] [join] Winston_Vimes has joined the server (1:86.159.38.45)
 [01:48:47] [part] Benjamin_Armand has left the server (0:1)
 [01:50:15] [part] Winston_Vimes has left the server (1:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[20:33:53] filterscripts = ""  (string)
+[20:33:53] 
+[20:33:53] Server Plugins
+[20:33:53] --------------
+[20:33:53]  Loading plugin: mysql
+[20:33:53]  >> plugin.mysql: R38 successfully loaded.
+[20:33:53]   Loaded.
+[20:33:53]  Loading plugin: sscanf
+[20:33:53] 
+
+[20:33:53]  ===============================
+
+[20:33:53]       sscanf plugin loaded.     
+
+[20:33:53]          Version:  2.8.1        
+
+[20:33:53]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:33:53]  ===============================
+
+[20:33:53]   Loaded.
+[20:33:53]  Loading plugin: nativechecker
+[20:33:53]   Loaded.
+[20:33:53]  Loaded 3 plugins.
+
+[20:33:53] 
+[20:33:53] Filterscripts
+[20:33:53] ---------------
+[20:33:53]   Loaded 0 filterscripts.
+
+[20:33:53]  
+[20:33:53]  
+[20:33:53]  
+[20:33:53]  ======================================= 
+[20:33:53]  |                                     | 
+[20:33:53]  |        YSI version 3.09.0684        | 
+[20:33:53]  |        By Alex "Y_Less" Cole        | 
+[20:33:53]  |                                     | 
+[20:33:53]  ======================================= 
+[20:33:53]  
+[20:33:53] 
+-------------------------------------
+[20:33:53]  This is the WIP HAC Gamemode v0.001
+[20:33:53] -------------------------------------
+
+[20:33:53] Number of vehicle models: 0
+[20:33:54]  
+[20:33:54]  ========================================== 
+[20:33:54]  |                                        | 
+[20:33:54]  |  A new version (v<html>
+  ) of YSI is  | 
+[20:33:54]  |            available from:             | 
+[20:33:54]  |                                        | 
+[20:33:54]  |     www.y-less.com/YSI/YSI_1.0.zip     | 
+[20:33:54]  |                                        | 
+[20:33:54]  ========================================== 
+[20:33:54]  
+[20:34:27] Incoming connection: 127.0.0.1:64600
+[20:34:27] [join] Benjamin_Nobel has joined the server (0:127.0.0.1)
+[20:34:27] b3njam1n
+[20:35:24] [part] Benjamin_Nobel has left the server (0:1)
